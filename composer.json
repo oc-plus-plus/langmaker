@@ -17,6 +17,7 @@
       "@cs-check"
     ],
     "cs-fix": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php",
-    "cs-check": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php --dry-run --diff"
+    "cs-check": "php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php --dry-run --diff",
+    "dist": "php .tools/make_dist.php"
   }
 }
