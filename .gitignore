@@ -1,2 +1,5 @@
 /.idea
 /.tools/.cache
+/tmp
+/vendor
+/composer.lock
