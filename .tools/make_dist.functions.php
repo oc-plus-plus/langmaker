@@ -88,13 +88,14 @@ function delFolderTree(string $dir): bool {
 /**
  * Creates `.ocmod.zip` archives for each directory found in the source directory.
  *
- * @param string $sourceDir the source directory containing the directories to be archived
+ * @param string $sourceDir      the source directory containing the directories to be archived
  * @param string $destinationDir the destination directory where the archives will be created
- * @param string $zipName the default name of the archive file, which will be modified for each directory; default is '.ocmod.zip'
+ * @param string $zipExt
+ * @param string $zipName        the default name of the archive file, which will be modified for each directory; default is '.ocmod.zip'
  *
  * @return void
  */
-function makeOcmodArchives(string $sourceDir, string $destinationDir, string  $zipExt = '.ocmod.zip'): void {
+function makeOcmodArchives(string $sourceDir, string $destinationDir, string $zipExt = '.ocmod.zip'): void {
 	$items = scandir($sourceDir);
 
 	foreach ($items as $item) {
