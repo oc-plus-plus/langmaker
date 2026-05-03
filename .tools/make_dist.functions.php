@@ -85,7 +85,16 @@ function delFolderTree(string $dir): bool {
 	return rmdir($dir);
 }
 
-function makeOcmodArchives(string $sourceDir, string $destinationDir, string $zipName = '.ocmod.zip'): void {
+/**
+ * Creates `.ocmod.zip` archives for each directory found in the source directory.
+ *
+ * @param string $sourceDir the source directory containing the directories to be archived
+ * @param string $destinationDir the destination directory where the archives will be created
+ * @param string $zipName the default name of the archive file, which will be modified for each directory; default is '.ocmod.zip'
+ *
+ * @return void
+ */
+function makeOcmodArchives(string $sourceDir, string $destinationDir, string  $zipExt = '.ocmod.zip'): void {
 	$items = scandir($sourceDir);
 
 	foreach ($items as $item) {
@@ -96,7 +105,8 @@ function makeOcmodArchives(string $sourceDir, string $destinationDir, string $zi
 		$itemPath = $sourceDir . $item;
 
 		if (is_dir($itemPath)) {
-			$zipName = $destinationDir . $item . $zipName;
+			$zipName = $destinationDir . $item . $zipExt;
+
 			$zip = new ZipArchive();
 
 			if ($zip->open($zipName, ZipArchive::CREATE | ZipArchive::OVERWRITE) === true) {
@@ -113,7 +123,7 @@ function makeOcmodArchives(string $sourceDir, string $destinationDir, string $zi
 
 				$zip->close();
 			} else {
-				echo "Error creating archive {$zipName}" . PHP_EOL;
+				echo "Error creating archive {$zipName}\n";
 			}
 		}
 	}
