@@ -29,7 +29,7 @@ foreach ($languages as $dir) {
 	$moduleName = 'oc_language_' . basename($dir);
 	$moduleDir = TMP_DIR . $moduleName . '/';
 	$languageName = $config['settings']['name'];
-	$moduleClassName = ucfirst(preg_replace('/[^a-zA-Z0-9]/', '', $languageName));
+	$moduleClassName = ucfirst(preg_replace('/[^a-zA-Z0-9]/', '', basename($dir)));
 	$moduleFileName = strtolower($moduleClassName);
 	$moduleNameSpace = implode('', array_map('ucfirst', explode('_', $moduleName)));
 

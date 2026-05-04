@@ -1,9 +1,8 @@
 <?php
 
 return [
-	// Only Latin letters and numbers are allowed in this section
 	'settings' => [
-		'name'   => 'French',
+		'name'   => 'Français',
 		'code'   => 'fr-fr',
 		'locale' => 'fr-fr,fr'
 	],

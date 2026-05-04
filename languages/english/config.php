@@ -1,7 +1,6 @@
 <?php
 
 return [
-	// Only Latin letters and numbers are allowed in this section
 	'settings' => [
 		'name'   => 'English',
 		'code'   => 'en-gb',

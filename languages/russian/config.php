@@ -1,9 +1,8 @@
 <?php
 
 return [
-	// Only Latin letters and numbers are allowed in this section
 	'settings' => [
-		'name'   => 'Russian',
+		'name'   => 'Русский',
 		'code'   => 'ru-ru',
 		'locale' => 'ru_RU.UTF-8,ru_RU,russian,ru'
 	],
