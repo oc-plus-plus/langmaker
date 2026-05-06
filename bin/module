@@ -1,13 +1,14 @@
+#!/usr/bin/env php
 <?php
 
 define('ROOT_DIR', dirname(__DIR__));
-const TEMPLATE_DIR = ROOT_DIR . '/.tools/template/';
+const TEMPLATE_DIR = __DIR__ . '/template/';
 const TMP_DIR = ROOT_DIR . '/tmp/';
 const LNG_DIR = ROOT_DIR . '/languages/';
 const DIST_DIR = ROOT_DIR . '/dist/';
 
 // Connecting functions
-require __DIR__ . '/make_dist.functions.php';
+require __DIR__ . '/includes/helpers.php';
 
 // Delete the temporary folder (if any)
 delFolderTree(TMP_DIR);

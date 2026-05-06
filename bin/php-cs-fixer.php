@@ -3,7 +3,7 @@
 $config = new PhpCsFixer\Config();
 
 return $config
-	->setCacheFile(__DIR__ . '/.cache/php-cs-fixer.cache')
+	->setUsingCache(false)
 	->setFinder(
 		PhpCsFixer\Finder::create()
 			->in(__DIR__)
