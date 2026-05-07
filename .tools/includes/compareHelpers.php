@@ -50,10 +50,6 @@ function getRecursiveFilesRelative(string $sourceDir, ?string $basePath = null):
  * @return string a formatted string of file names, or 'none' if the list is empty
  */
 function createList(array $list): string {
-	if (empty($list)) {
-		return 'none';
-	}
-
 	sort($list);
 	$result = '';
 
@@ -65,5 +61,5 @@ function createList(array $list): string {
 		$result .= '  ' . $file . PHP_EOL;
 	}
 
-	return $result;
+	return empty($result) ? 'The list is empty' : $result;
 }
