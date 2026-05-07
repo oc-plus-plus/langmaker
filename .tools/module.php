@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 
 define('ROOT_DIR', dirname(__DIR__));
@@ -8,7 +7,7 @@ const LNG_DIR = ROOT_DIR . '/languages/';
 const DIST_DIR = ROOT_DIR . '/dist/';
 
 // Connecting functions
-require __DIR__ . '/includes/helpers.php';
+require __DIR__ . '/includes/moduleHelpers.php';
 
 // Delete the temporary folder (if any)
 delFolderTree(TMP_DIR);
