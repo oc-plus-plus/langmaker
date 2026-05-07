@@ -49,7 +49,7 @@ foreach ($languages as $dir) {
 	////////////////////////////////////////////////////////////
 	// Processing install.json                                //
 	////////////////////////////////////////////////////////////
-	$installContent = file_get_contents(TEMPLATE_DIR . 'install.dist');
+	$installContent = file_get_contents(TEMPLATE_DIR . 'install.txt');
 	$installPlaceholders = [
 		'%name%'        => 'name',
 		'%description%' => 'description',
@@ -69,7 +69,7 @@ foreach ($languages as $dir) {
 	////////////////////////////////////////////////////////////
 	// Processing the controller template                     //
 	////////////////////////////////////////////////////////////
-	$controllerContent = file_get_contents(TEMPLATE_DIR . 'controller.dist');
+	$controllerContent = file_get_contents(TEMPLATE_DIR . 'controller.txt');
 	$controllerPlaceholders = [
 		'%module_namespace%'    => $moduleNameSpace,
 		'%module_name%'         => $moduleName,
@@ -93,14 +93,14 @@ foreach ($languages as $dir) {
 	////////////////////////////////////////////////////////////
 	// Processing the language template                       //
 	////////////////////////////////////////////////////////////
-	$languageContent = file_get_contents(TEMPLATE_DIR . 'language.dist');
+	$languageContent = file_get_contents(TEMPLATE_DIR . 'language.txt');
 	$languageContent = str_replace('%name%', $languageName, $languageContent);
 	file_put_contents($moduleDir . 'admin/language/en-gb/language/' . $moduleFileName . '.php', $languageContent);
 
 	////////////////////////////////////////////////////////////
 	// Processing the 'view' template                         //
 	////////////////////////////////////////////////////////////
-	$viewContent = file_get_contents(TEMPLATE_DIR . 'view.dist');
+	$viewContent = file_get_contents(TEMPLATE_DIR . 'view.txt');
 	$viewContent = str_replace('%status%', $moduleStatusKey, $viewContent);
 	file_put_contents($moduleDir . 'admin/view/template/language/' . $moduleFileName . '.twig', $viewContent);
 
