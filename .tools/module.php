@@ -6,14 +6,37 @@ const TMP_DIR = ROOT_DIR . '/tmp/';
 const LNG_DIR = ROOT_DIR . '/languages/';
 const DIST_DIR = ROOT_DIR . '/dist/';
 
+const COLOR_GREEN = "\033[32m";
+const COLOR_RED = "\033[31m";
+const COLOR_RESET = "\033[0m";
+
 // Connecting functions
 require __DIR__ . '/includes/moduleHelpers.php';
+
+$options = getopt("", ["lng:", "help"]);
+
+if (isset($options['help'])) {
+	echo '════════════════════════════════════════════════════════════' . PHP_EOL;
+	echo 'Usage: ' . COLOR_GREEN . 'php module.php' . COLOR_RESET . PHP_EOL;
+	echo '   or  ' . COLOR_GREEN . 'php module.php --lng french' . COLOR_RESET . PHP_EOL;
+	echo '————————————————————————————————————————————————————————————' . PHP_EOL;
+	exit;
+}
 
 // Delete the temporary folder (if any)
 delFolderTree(TMP_DIR);
 
-// Get a list of all language modules
-$languages = glob(LNG_DIR . '*', GLOB_ONLYDIR);
+if (isset($options['lng'])) {
+	if (is_dir(LNG_DIR . $options['lng'])) {
+		$languages = [LNG_DIR . $options['lng']];
+	} else {
+		echo COLOR_RED . 'Error: the language is not found' . COLOR_RESET . PHP_EOL;
+		exit;
+	}
+} else {
+	// Get a list of all language modules
+	$languages = glob(LNG_DIR . '*', GLOB_ONLYDIR);
+}
 
 // Process each of the found language modules separately
 foreach ($languages as $dir) {
@@ -26,7 +49,7 @@ foreach ($languages as $dir) {
 		continue;
 	}
 
-	$moduleName = 'oc_language_' . basename($dir);
+	$moduleName = 'language_' . basename($dir);
 	$moduleDir = TMP_DIR . $moduleName . '/';
 	$languageName = $config['settings']['name'];
 	$moduleClassName = ucfirst(preg_replace('/[^a-zA-Z0-9]/', '', basename($dir)));

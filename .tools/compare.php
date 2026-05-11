@@ -11,13 +11,13 @@ require __DIR__ . '/includes/compareHelpers.php';
 
 $options = getopt("help", ["master:", "check:"]);
 
-if (!isset($options['master']) && !isset($options['check'])) {
+if (!isset($options['check'])) {
 	echo '════════════════════════════════════════════════════════════' . PHP_EOL;
-	echo 'Usage:' . PHP_EOL;
-	echo '   ' . COLOR_GREEN . 'php check.php --master english --check russian' . COLOR_RESET . PHP_EOL . PHP_EOL;
+	echo 'Usage: ' . COLOR_GREEN . 'php check.php --check french' . COLOR_RESET . PHP_EOL;
+	echo '   or  ' . COLOR_GREEN . 'php check.php --master french --check georgian' . COLOR_RESET . PHP_EOL . PHP_EOL;
 	echo 'Options:' . PHP_EOL;
 	echo '   ' . COLOR_GREEN . '--master' . COLOR_RESET . '  [optional] master language' . PHP_EOL;
-	echo '             if not specified, "english" is used by default' . PHP_EOL . PHP_EOL;
+	echo '             if not specified, "english" is used by default' . PHP_EOL;
 	echo '   ' . COLOR_GREEN . '--check' . COLOR_RESET . '   the language that we will compare with master' . PHP_EOL;
 	echo '————————————————————————————————————————————————————————————' . PHP_EOL;
 }
