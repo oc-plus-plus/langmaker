@@ -1,15 +1,19 @@
 <?php
 
+namespace LangMaker;
+
 define('ROOT_DIR', dirname(__DIR__));
 const LNG_DIR = ROOT_DIR . '/languages/';
+const TEMPLATE_DIR = ROOT_DIR . '/.tools/template/';
 
 const COLOR_GREEN = "\033[32m";
 const COLOR_RED = "\033[31m";
 const COLOR_RESET = "\033[0m";
 
-require __DIR__ . '/includes/compareHelpers.php';
+require ROOT_DIR . '/.tools/includes/compareHelpers.php';
+require ROOT_DIR . '/.tools/src/CompareLanguages.php';
 
-$options = getopt("help", ["master:", "check:"]);
+$options = getopt('', ['master:', 'check:']);
 
 if (!isset($options['check'])) {
 	echo '════════════════════════════════════════════════════════════' . PHP_EOL;
@@ -41,29 +45,43 @@ if (!isset($options['check'])) {
 	$checkLanguage = $options['check'];
 }
 
-$replace['%master_language%'] = $masterLanguage;
-$replace['%check_language%'] = $checkLanguage;
-
 // Get a list of files in folders with the master language
-$masterFiles = getRecursiveFilesRelative(LNG_DIR . $masterLanguage, LNG_DIR . $masterLanguage);
+$masterFiles = getRecursiveFilesRelative(LNG_DIR . $masterLanguage);
 // Get a list of files in folders with the language being checked
-$checkFiles = getRecursiveFilesRelative(LNG_DIR . $checkLanguage, LNG_DIR . $checkLanguage);
+$checkFiles = getRecursiveFilesRelative(LNG_DIR . $checkLanguage);
 
-// Calculate which files are missing in the language being checked
+// Copy missing files from the source to the language being checked
 $missingFiles = array_diff($masterFiles, $checkFiles);
-$replace['%missing_files%'] = createList($missingFiles);
 
-// Calculate which files are extra in the language being checked
-$extraFiles = array_diff($checkFiles, $masterFiles);
-$replace['%extra_files%'] = createList($extraFiles);
-
-$report = file_get_contents(__DIR__ . '/template/compare.txt');
-
-foreach ($replace as $key => $value) {
-	$report = str_replace($key, $value, $report);
+foreach ($missingFiles as $fileToCopy) {
+	if (str_ends_with($fileToCopy, '.php')) {
+		copyFile(LNG_DIR . $masterLanguage . '/' . $fileToCopy, LNG_DIR . $checkLanguage . '/' . $fileToCopy);
+	}
 }
 
-file_put_contents(ROOT_DIR . '/compare-' . $masterLanguage . '-' . $checkLanguage . '.txt', $report);
+// Move all unnecessary files to the .redundant folder
+$extraFiles = array_diff($checkFiles, $masterFiles);
+
+foreach ($extraFiles as $fileToMove) {
+	if (!str_starts_with($fileToMove, '/.redundant') && str_ends_with($fileToMove, '.php')) {
+		copyFile(LNG_DIR . $checkLanguage . '/' . $fileToMove, LNG_DIR . $checkLanguage . '/.redundant/' . $fileToMove, true);
+	}
+}
+
+// Сравниваем содержимое файлов
+foreach ($masterFiles as $fileToCheck) {
+	if (str_starts_with($fileToCheck, '/.redundant')
+		|| str_starts_with($fileToCheck, '/config.php')
+		|| !str_ends_with($fileToCheck, '.php')) {
+		continue;
+	}
+
+	$compare = new CompareLanguages(
+		LNG_DIR . $masterLanguage . '/' . $fileToCheck,
+		LNG_DIR . $checkLanguage . '/' . $fileToCheck
+	);
+
+	file_put_contents(LNG_DIR . $checkLanguage . '/' . $fileToCheck, $compare->getResult());
+}
 
 echo COLOR_GREEN . 'SUCCESS!' . COLOR_RESET . PHP_EOL;
-echo COLOR_GREEN . 'The comparison report has been saved to: ' . COLOR_RESET . 'compare-' . $masterLanguage . '-' . $checkLanguage . '.txt' . PHP_EOL;

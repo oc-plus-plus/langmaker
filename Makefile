@@ -57,5 +57,21 @@ cs-fix:
 	@echo "Coding Standards Fix"
 	@php .tools/php-cs-fixer-v3.phar fix --config=.tools/php-cs-fixer.php
 
+#compare:
+#	@php .tools/compare.php --master $(master) --check $(check) --mode $(mode)
+
 compare:
-	@php .tools/compare.php --master $(master) --check $(check)
+	@echo "════════════════════════════════════════════════════════════"
+	@echo -e " MASTER LANGUAGE: $(COLOR_GREEN)$(master)$(COLOR_RESET)"
+	@echo -e "COMPARE LANGUAGE: $(COLOR_PURPLE)$(check)$(COLOR_RESET)"
+	@echo -n "————————————————  Are you sure you want to rewrite? [y/N] "
+	@read -t 10 ans; \
+	if [ $$? -ne 0 ]; then \
+		echo -e "\n          STATUS: $(COLOR_RED)aborted$(COLOR_RESET) (timeout reached)"; \
+	elif [ "$$ans" = "y" ] || [ "$$ans" = "Y" ]; then \
+		php .tools/compare.php --master $(master) --check $(check) \
+		echo -e "          STATUS: $(COLOR_GREEN)complete$(COLOR_RESET)"; \
+	else \
+		echo -e "          STATUS: $(COLOR_RED)aborted$(COLOR_RESET)"; \
+	fi
+	@echo "————————————————————————————————————————————————————————————"

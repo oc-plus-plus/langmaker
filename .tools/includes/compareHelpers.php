@@ -1,16 +1,13 @@
 <?php
 
 /**
- * Retrieves a list of files from a specified directory and its subdirectories,
- * optionally returning paths relative to a given base path.
+ * Retrieves a list of files from a specified directory and its subdirectories
  *
- * @param string      $sourceDir the directory to scan recursively for files
- * @param string|null $basePath  An optional base path to make file paths relative to.
- *                               If null, absolute paths will be returned.
+ * @param string $sourceDir the directory to scan recursively for files
  *
- * @return array an array of file paths, either absolute or relative to the base path
+ * @return array an array of file paths
  */
-function getRecursiveFilesRelative(string $sourceDir, ?string $basePath = null): array {
+function getRecursiveFilesRelative(string $sourceDir): array {
 	$result = [];
 
 	if (!is_dir($sourceDir)) {
@@ -19,10 +16,6 @@ function getRecursiveFilesRelative(string $sourceDir, ?string $basePath = null):
 
 	$sourceDir = rtrim($sourceDir, DIRECTORY_SEPARATOR);
 
-	if ($basePath !== null) {
-		$basePath = rtrim($basePath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
-	}
-
 	$directory = new RecursiveDirectoryIterator($sourceDir, RecursiveDirectoryIterator::SKIP_DOTS);
 	$iterator = new RecursiveIteratorIterator($directory);
 
@@ -30,12 +23,8 @@ function getRecursiveFilesRelative(string $sourceDir, ?string $basePath = null):
 		if ($file->isFile()) {
 			$fullPath = $file->getRealPath();
 
-			if ($basePath !== null) {
-				$relativePath = str_replace($basePath, '', $fullPath);
-				$result[] = $relativePath;
-			} else {
-				$result[] = $fullPath;
-			}
+			$relativePath = str_replace($sourceDir, '', $fullPath);
+			$result[] = $relativePath;
 		}
 	}
 
@@ -43,23 +32,37 @@ function getRecursiveFilesRelative(string $sourceDir, ?string $basePath = null):
 }
 
 /**
- * Generates a formatted string from a list of file names, excluding files with a .png extension.
+ * Moves a file from the source location to the destination location.
+ * If the destination directory does not exist, it attempts to create it.
  *
- * @param array $list an array of file names to process
+ * @param string $sourceFile      the path to the source file to be moved
+ * @param string $destinationFile the path to the destination where the file should be moved
+ * @param bool   $move
  *
- * @return string a formatted string of file names, or 'none' if the list is empty
+ * @return bool true if the file was moved successfully, false otherwise
  */
-function createList(array $list): string {
-	sort($list);
-	$result = '';
+function copyFile(string $sourceFile, string $destinationFile, bool $move = false): bool {
+	if (!is_file($sourceFile)) {
+		trigger_error("Source file does not exist: {$sourceFile}", E_USER_WARNING);
 
-	foreach ($list as $file) {
-		if (str_ends_with($file, '.png')) {
-			continue;
-		}
-
-		$result .= '  ' . $file . PHP_EOL;
+		return false;
 	}
 
-	return empty($result) ? 'The list is empty' : $result;
+	$destinationDir = dirname($destinationFile);
+
+	if (!is_dir($destinationDir)) {
+		if (!mkdir($destinationDir, 0755, true)) {
+			trigger_error("Failed to create directory: {$destinationDir}", E_USER_WARNING);
+
+			return false;
+		}
+	}
+
+	if ($move && rename($sourceFile, $destinationFile) || copy($sourceFile, $destinationFile)) {
+		return true;
+	} else {
+		trigger_error('Failed to ' . ($move ? 'move' : 'copy') . ' file from ' . $sourceFile . ' to ' . $destinationFile, E_USER_WARNING);
+
+		return false;
+	}
 }
