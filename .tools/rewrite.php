@@ -4,7 +4,6 @@ namespace LangMaker;
 
 define('ROOT_DIR', dirname(__DIR__));
 const LNG_DIR = ROOT_DIR . '/languages/';
-const TEMPLATE_DIR = ROOT_DIR . '/.tools/template/';
 
 const COLOR_GREEN = "\033[32m";
 const COLOR_RED = "\033[31m";
@@ -41,6 +40,7 @@ if (!isset($options['check'])) {
 	exit;
 } elseif (!is_dir(LNG_DIR . $options['check'])) {
 	echo COLOR_RED . 'Error: the language that we will compare with master is not found' . COLOR_RESET . PHP_EOL;
+	exit;
 } else {
 	$checkLanguage = $options['check'];
 }

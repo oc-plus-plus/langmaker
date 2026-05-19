@@ -34,14 +34,14 @@ help:
 	@echo -e "                $(COLOR_PURPLE)make module$(COLOR_RESET)"
 	@echo -e "             or $(COLOR_PURPLE)make module lng=french$(COLOR_RESET)"
 	@echo ""
-	@echo -e "$(COLOR_GREEN)make compare$(COLOR_RESET)    Compares two specified folders with language files."
+	@echo -e "$(COLOR_GREEN)make rewrite$(COLOR_RESET)    Compares two specified folders with language files."
 	@echo -e "                $(COLOR_CYAN)Accepts the following parameters$(COLOR_RESET)"
 	@echo -e "                $(COLOR_YELLOW)master$(COLOR_RESET)   Sample language for comparison."
 	@echo -e "                         Optional, default $(UNDERLINE)english$(COLOR_RESET)"
 	@echo -e "                $(COLOR_YELLOW)compare$(COLOR_RESET)  Language to compare with the sample."
 	@echo -e "                $(COLOR_CYAN)Example$(COLOR_RESET)"
-	@echo -e "                $(COLOR_PURPLE)make compare check=french$(COLOR_RESET)"
-	@echo -e "             or $(COLOR_PURPLE)make compare master=french check=georgian$(COLOR_RESET)"
+	@echo -e "                $(COLOR_PURPLE)make rewrite check=french$(COLOR_RESET)"
+	@echo -e "             or $(COLOR_PURPLE)make rewrite master=french check=georgian$(COLOR_RESET)"
 	@echo ""
 
 module:
@@ -60,7 +60,7 @@ cs-fix:
 #compare:
 #	@php .tools/compare.php --master $(master) --check $(check) --mode $(mode)
 
-compare:
+rewrite:
 	@echo "════════════════════════════════════════════════════════════"
 	@echo -e " MASTER LANGUAGE: $(COLOR_GREEN)$(master)$(COLOR_RESET)"
 	@echo -e "COMPARE LANGUAGE: $(COLOR_PURPLE)$(check)$(COLOR_RESET)"
@@ -69,7 +69,7 @@ compare:
 	if [ $$? -ne 0 ]; then \
 		echo -e "\n          STATUS: $(COLOR_RED)aborted$(COLOR_RESET) (timeout reached)"; \
 	elif [ "$$ans" = "y" ] || [ "$$ans" = "Y" ]; then \
-		php .tools/compare.php --master $(master) --check $(check) \
+		php .tools/rewrite.php --master $(master) --check $(check) \
 		echo -e "          STATUS: $(COLOR_GREEN)complete$(COLOR_RESET)"; \
 	else \
 		echo -e "          STATUS: $(COLOR_RED)aborted$(COLOR_RESET)"; \
