@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject'] = '%s - Demande RGPD approuvée!';
 $_['text_request'] = 'Demande de suppression de compte';
 $_['text_hello']   = 'Bonjour <strong>%s</strong>,';

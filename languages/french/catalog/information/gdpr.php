@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Demande relative au Règlement Général sur la Protection des Données (RGPD)';
 
-// Texte
+// Text
 $_['text_account']      = 'Compte';
 $_['text_gdpr']         = 'Vous pouvez consulter la politique RGPD de %s sur la page <a href="%s" target="_blank">%s</a>.';
 $_['text_verification'] = 'Vérification de compte';
@@ -17,9 +17,9 @@ $_['text_limit']        = 'Les demandes de suppression de compte seront traitée
 $_['text_success']      = 'Succès: Un e-mail a été envoyé à votre adresse e-mail!';
 $_['text_cancel']		= 'Annuler';
 
-// Entrée
+// Entry
 $_['entry_email']       = 'E-Mail';
 
-// Erreur
+// Error
 $_['error_email']       = 'L\'adresse e-mail ne semble pas valide!';
 $_['error_action']      = 'Vous devez sélectionner une action RGPD valide!';

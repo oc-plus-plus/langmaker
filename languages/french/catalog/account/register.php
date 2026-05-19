@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']            = 'Créer un Compte';
 
-// Texte
+// Text
 $_['text_account']             = 'Compte';
 $_['text_register']            = 'S\'inscrire';
 $_['text_account_already']     = 'Si vous avez déjà un compte avec nous, veuillez vous connecter sur la <a href="%s">page de connexion</a>.';
@@ -11,7 +11,7 @@ $_['text_newsletter']          = 'Bulletin';
 $_['text_your_password']       = 'Votre Mot de Passe';
 $_['text_agree']               = 'J\'ai lu et j\'accepte les <a href="%s" class="modal-link"><b>%s</b></a>';
 
-// Entrée
+// Entry
 $_['entry_customer_group']     = 'Groupe de Clients';
 $_['entry_firstname']          = 'Prénom';
 $_['entry_lastname']           = 'Nom';
@@ -20,7 +20,7 @@ $_['entry_telephone']          = 'Téléphone';
 $_['entry_newsletter']         = 'S\'abonner';
 $_['entry_password']           = 'Mot de Passe';
 
-// Erreur
+// Error
 $_['error_token']              = 'Attention: Jeton d\'inscription invalide!';
 $_['error_exists']             = 'Attention: L\'adresse e-mail est déjà enregistrée!';
 $_['error_customer_group']     = 'Le groupe de clients ne semble pas être valide!';

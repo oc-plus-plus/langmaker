@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']   = '%s - Demande RGPD refusée!';
 $_['text_export']    = 'Demande d\'exportation des données du compte';
 $_['text_remove']    = 'Demande de suppression de compte';
@@ -8,5 +8,5 @@ $_['text_user']      = 'Utilisateur';
 $_['text_contact']   = 'Malheureusement, votre demande a été refusée. Pour plus d\'informations, vous pouvez contacter la boutique ici:';
 $_['text_thanks']    = 'Merci,';
 
-// Bouton
+// Button
 $_['button_contact'] = 'Contactez-nous';

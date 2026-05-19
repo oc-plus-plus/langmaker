@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']       = '%s - Mise à jour du retour %s';
 $_['text_return_id']     = 'ID de retour:';
 $_['text_date_added']    = 'Date de retour:';

@@ -1,3 +1,3 @@
 <?php
-// Texte
+// Text
 $_['text_handling'] = 'Frais de Manutention';

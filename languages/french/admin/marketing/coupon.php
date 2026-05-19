@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']       = 'Coupons';
 
-// Texte
+// Text
 $_['text_success']        = 'Succès: Vous avez modifié les coupons!';
 $_['text_list']           = 'Liste des coupons';
 $_['text_add']            = 'Ajouter un coupon';
@@ -11,7 +11,7 @@ $_['text_percent']        = 'Pourcentage';
 $_['text_amount']         = 'Montant fixe';
 $_['text_coupon']         = 'Historique';
 
-// Colonne
+// Column
 $_['column_name']         = 'Nom du coupon';
 $_['column_code']         = 'Code';
 $_['column_discount']     = 'Remise';
@@ -24,7 +24,7 @@ $_['column_amount']       = 'Montant';
 $_['column_date_added']   = 'Date d\'ajout';
 $_['column_action']       = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']          = 'Nom du coupon';
 $_['entry_code']          = 'Code';
 $_['entry_type']          = 'Type';
@@ -39,7 +39,7 @@ $_['entry_uses_total']    = 'Utilisations par coupon';
 $_['entry_uses_customer'] = 'Utilisations par client';
 $_['entry_status']        = 'Statut';
 
-// Aide
+// Help
 $_['help_code']           = 'Le code que le client entre pour obtenir la remise.';
 $_['help_type']           = 'Pourcentage ou montant fixe.';
 $_['help_logged']         = 'Le client doit être connecté pour utiliser le coupon.';
@@ -49,7 +49,7 @@ $_['help_product']        = 'Choisissez des produits spécifiques auxquels le co
 $_['help_uses_total']     = 'Le nombre maximum de fois que le coupon peut être utilisé par un client. Laissez vide pour illimité.';
 $_['help_uses_customer']  = 'Le nombre maximum de fois que le coupon peut être utilisé par un client unique. Laissez vide pour illimité.';
 
-// Erreur
+// Error
 $_['error_permission']    = 'Attention: Vous n\'avez pas la permission de modifier les coupons!';
 $_['error_exists']        = 'Attention: Le code du coupon est déjà utilisé!';
 $_['error_name']          = 'Le nom du coupon doit comporter entre 3 et 128 caractères!';

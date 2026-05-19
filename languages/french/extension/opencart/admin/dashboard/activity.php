@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']                = 'Activités Récentes';
 
-// Texte
+// Text
 $_['text_extension']               = 'Extensions';
 $_['text_success']                 = 'Succès: Vous avez modifié les activités récentes du tableau de bord!';
 $_['text_edit']                    = 'Modifier les activités récentes du tableau de bord';
@@ -23,10 +23,10 @@ $_['text_activity_affiliate_add']  = '<a href="customer_id=%d">%s</a> a créé u
 $_['text_activity_affiliate_edit'] = '<a href="customer_id=%d">%s</a> a modifié leur compte affilié.';
 $_['text_activity_transaction']    = '<a href="customer_id=%d">%s</a> a reçu une commission d\'une nouvelle <a href="order_id=%d">commande</a>.';
 
-// Entrée
+// Entry
 $_['entry_status']                 = 'Statut';
 $_['entry_sort_order']             = 'Ordre de Tri';
 $_['entry_width']                  = 'Largeur';
 
-// Erreur
+// Error
 $_['error_permission']             = 'Attention: Vous n\'avez pas la permission de modifier les activités récentes du tableau de bord!';

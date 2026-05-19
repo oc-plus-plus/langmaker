@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']              = 'Commandes';
 
-// Texte
+// Text
 $_['text_account']               = 'Compte';
 $_['text_order']                 = 'Commande n°%s';
 $_['text_order_id']              = 'ID de commande';
@@ -30,7 +30,7 @@ $_['text_history']               = 'Historique des commandes';
 $_['text_success']               = 'Succès: Vous avez ajouté <a href="%s">%s</a> à votre <a href="%s">panier</a>!';
 $_['text_no_results']            = 'Vous n\'avez passé aucune commande précédente!';
 
-// Colonne
+// Column
 $_['column_order_id']            = 'ID de commande';
 $_['column_customer']            = 'Client';
 $_['column_product']             = 'Nombre de produits';
@@ -43,5 +43,5 @@ $_['column_price']               = 'Prix';
 $_['column_comment']             = 'Commentaire';
 $_['column_action']              = 'Action';
 
-// Erreur
+// Error
 $_['error_reorder']              = '%s n\'est pas actuellement disponible pour une nouvelle commande.';

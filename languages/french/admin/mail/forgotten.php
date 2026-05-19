@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']  = '%s - Demande de réinitialisation de mot de passe';
 $_['text_greeting'] = 'Un nouveau mot de passe a été demandé pour l\'administration de %s.';
 $_['text_change']   = 'Pour réinitialiser votre mot de passe, cliquez sur le lien ci-dessous:';

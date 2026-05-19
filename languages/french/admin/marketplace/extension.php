@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Extensions';
 
-// Texte
+// Text
 $_['text_success']  = 'Succès: Vous avez modifié les extensions!';
 $_['text_list']     = 'Liste des extensions';
 $_['text_type']     = 'Choisissez le type d\'extension';

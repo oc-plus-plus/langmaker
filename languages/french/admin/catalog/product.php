@@ -1,15 +1,15 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']              = 'Produits';
 
-// Texte
+// Text
 $_['text_success']               = 'Succès: Vous avez modifié les produits!';
 $_['text_variant']               = 'Veuillez noter que comme il s\'agit d\'un produit variant, vous devez remplacer les données du <a href="%s" target="_blank" class="alert-link">produit principal</a>. Sinon, les données seront remplacées par celles du <a href="%s" target="_blank" class="alert-link">produit principal</a> lors de l\'enregistrement.';
 $_['text_list']                  = 'Liste des Produits';
 $_['text_add']                   = 'Ajouter un Produit';
 $_['text_edit']                  = 'Modifier le Produit';
 $_['text_variant_add']           = 'Ajouter une Variante';
-$_['text_general']               = 'Général';
+/* LM ADDED */ $_['text_description']           = 'Description';
 $_['text_meta']                  = 'Balises Méta';
 $_['text_model']                 = 'Modèle';
 $_['text_price']                 = 'Prix';
@@ -48,8 +48,9 @@ $_['text_semi_month']            = 'demi-mois';
 $_['text_month']                 = 'mois';
 $_['text_year']                  = 'année';
 $_['text_report']                = 'Rapports';
+/* LM ADDED */ $_['text_seo']                   = 'SEO URL';
 
-// Colonne
+// Column
 $_['column_name']                = 'Nom du Produit';
 $_['column_model']               = 'Modèle';
 $_['column_image']               = 'Image';
@@ -62,7 +63,7 @@ $_['column_country']             = 'Pays';
 $_['column_date_added']          = 'Date d\'Ajout';
 $_['column_action']              = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']                 = 'Nom du Produit';
 $_['entry_description']          = 'Description';
 $_['entry_meta_title']           = 'Titre de la Balise Meta';
@@ -75,6 +76,7 @@ $_['entry_product_code']         = 'Codes de Produits';
 $_['entry_location']             = 'Localisation';
 $_['entry_shipping']             = 'Nécessite une Expédition';
 $_['entry_manufacturer']         = 'Fabricant';
+/* LM ADDED */ $_['entry_date_added']           = 'Date Added';
 $_['entry_date_available']       = 'Date Disponible';
 $_['entry_quantity']             = 'Quantité';
 $_['entry_minimum']              = 'Quantité Minimale';
@@ -115,7 +117,7 @@ $_['entry_reward']               = 'Points de Récompenses';
 $_['entry_layout']               = 'Remplacement de la Disposition';
 $_['entry_subscription']         = 'Plan d\'Abonnement';
 
-// Aide
+// Help
 $_['help_tag']                   = 'Séparés par des virgules';
 $_['help_minimum']               = 'Forcer une quantité minimum commandée';
 $_['help_stock_status']          = 'Statut affiché lorsqu\'un produit est en rupture de stock';
@@ -127,7 +129,7 @@ $_['help_related']               = '(Autocomplétion)';
 $_['help_option']                = '(Autocomplétion)';
 $_['help_points']                = 'Nombre de points nécessaires pour acheter cet article. Si vous ne voulez pas que ce produit soit acheté avec des points, laissez 0.';
 
-// Erreur
+// Error
 $_['error_warning']              = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
 $_['error_permission']           = 'Attention: Vous n\'avez pas la permission de modifier les produits!';
 $_['error_name']                 = 'Le nom du produit doit contenir plus de 1 caractère et moins de 255 caractères!';
@@ -137,3 +139,9 @@ $_['error_keyword']              = 'L\'URL SEO doit contenir entre 1 et 64 carac
 $_['error_keyword_exists']       = 'L\'URL SEO doit être unique!';
 $_['error_keyword_character']    = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
 $_['error_required']             = '%s requis!';
+
+/**
+ * LM REMOVED
+ * These keys were redundant and were removed.
+ */
+// $_['text_general'] = 'Général';

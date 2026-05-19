@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']       = 'Mon Compte';
 
-// Texte
+// Text
 $_['text_account']        = 'Compte';
 $_['text_my_account']     = 'Mon compte';
 $_['text_my_orders']      = 'Mes commandes';

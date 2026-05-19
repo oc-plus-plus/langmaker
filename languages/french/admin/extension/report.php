@@ -1,17 +1,17 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Rapports';
 
-// Texte
+// Text
 $_['text_success']      = 'Succès: Vous avez modifié les rapports!';
 $_['text_list']         = 'Liste des rapports';
 
-// Colonne
+// Column
 $_['column_name']       = 'Nom du rapport';
 $_['column_status']     = 'Statut';
 $_['column_sort_order'] = 'Ordre de tri';
 $_['column_action']     = 'Action';
 
-// Erreur
+// Error
 $_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les rapports!';
 $_['error_extension']   = 'Attention: L\'extension n\'existe pas!';

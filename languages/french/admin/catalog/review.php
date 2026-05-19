@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Avis';
 
-// Texte
+// Text
 $_['text_success']      = 'Succès: Vous avez modifié les avis!';
 $_['text_next']         = 'Succès: Vous avez modifié les évaluations de %s produit(s) sur %s!';
 $_['text_list']         = 'Liste des Avis';
@@ -10,7 +10,7 @@ $_['text_add']          = 'Ajouter un Avis';
 $_['text_edit']         = 'Modifier l\'Avis';
 $_['text_filter']       = 'Filtrer';
 
-// Colonne
+// Column
 $_['column_product']    = 'Produit';
 $_['column_author']     = 'Auteur';
 $_['column_rating']     = 'Évaluation';
@@ -18,7 +18,7 @@ $_['column_status']     = 'Statut';
 $_['column_date_added'] = 'Date d\'ajout';
 $_['column_action']     = 'Action';
 
-// Entrée
+// Entry
 $_['entry_product']     = 'Produit';
 $_['entry_author']      = 'Auteur';
 $_['entry_rating']      = 'Évaluation';
@@ -28,13 +28,13 @@ $_['entry_date_added']  = 'Date d\'ajout';
 $_['entry_date_from']   = 'Date de Début';
 $_['entry_date_to']     = 'Date de Fin';
 
-// Aide
+// Help
 $_['help_product']      = '(Autocomplétion)';
 
-// Bouton
+// Button
 $_['button_rating']     = 'Synchroniser les Évaluations des Produits';
 
-// Erreur
+// Error
 $_['error_warning']     = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
 $_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les avis!';
 $_['error_product']     = 'Produit requis!';

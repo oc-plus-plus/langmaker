@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']       = 'Gestion des Comptes';
 
-// Texte
+// Text
 $_['text_register']       = 'Créer un Compte';
 $_['text_login']          = 'Se Connecter';
 $_['text_logout']         = 'Fermeture de Session';

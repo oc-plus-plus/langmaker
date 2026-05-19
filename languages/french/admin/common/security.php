@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']                   = 'Notification de Sécurité Importante!';
 
-// Texte
+// Text
 $_['text_install']                    = 'Répertoire d\'installation';
 $_['text_install_description']        = 'Votre répertoire d\'installation doit être supprimé!';
 $_['text_install_success']            = 'Succès: Le répertoire d\'installation a été supprimé!';
@@ -20,18 +20,18 @@ $_['text_admin_delete']               = 'Supprimer le répertoire admin précéd
 $_['text_admin_delete_description']   = 'Le répertoire admin précédent doit être supprimé!';
 $_['text_path']                       = 'Chemin';
 
-// Entrée
+// Entry
 $_['entry_path_current']              = 'Chemin Actuel';
 $_['entry_path_new']                  = 'Nouveau Chemin';
 $_['entry_name']                      = 'Nom du Répertoire';
 
-// Bouton
+// Buttons
 $_['button_move']                     = 'Déplacer';
 
-// Aide
+// Help
 $_['help_storage']                    = 'Le nom du répertoire de stockage doit débuter comme suit: `storage_`.';
 
-// Erreur
+// Error
 $_['error_permission']                = 'Attention: Vous n\'avez pas la permission de modifier la sécurité!';
 $_['error_install']                   = 'Attention: Le répertoire d\'installation n\'existe pas!';
 $_['error_storage']                   = 'Attention: Le répertoire de stockage n\'existe pas!';

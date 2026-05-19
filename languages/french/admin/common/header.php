@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']          = 'OpenCart';
 
-// Texte
+// Text
 $_['text_notification_all']  = 'Afficher tout';
 $_['text_notification_none'] = 'Aucune notification';
 $_['text_profile']           = 'Votre Profil';

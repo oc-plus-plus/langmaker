@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Plan du site';
 
-// Texte
+// Text
 $_['text_special']     = 'Offres spéciales';
 $_['text_account']     = 'Mon compte';
 $_['text_edit']        = 'Informations du compte';

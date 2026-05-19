@@ -1,6 +1,6 @@
 <?php
-// Texte
+// Text
 $_['text_reward']  = 'Utiliser des points de récompenses';
 
-// Entrée
+// Entry
 $_['entry_reward'] = 'Utiliser des points de récompenses';

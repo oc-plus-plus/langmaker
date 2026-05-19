@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Comparaison de produits';
 
-// Texte
+// Text
 $_['text_product']      = 'Détails du produit';
 $_['text_name']         = 'Produit';
 $_['text_image']        = 'Image';
@@ -20,5 +20,5 @@ $_['text_success']      = 'Succès: Vous avez ajouté <a href="%s">%s</a> à vot
 $_['text_remove']       = 'Succès: Vous avez modifié votre comparateur de produits!';
 $_['text_no_results']   = 'Vous n\'avez sélectionné aucun produit à comparer.';
 
-// Erreur
+// Error
 $_['error_product']     = 'Attention: Produit introuvable!';

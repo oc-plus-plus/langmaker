@@ -1,8 +1,8 @@
 <?php
-// Texte
+// Text
 $_['text_success']   = 'Succès: Le rabais sur vos points de récompenses a été appliqué!';
 
-// Erreur
+// Error
 $_['error_customer'] = 'Attention: Les détails du client sont requis!';
 $_['error_product']  = 'Attention: Le produit est requis!';
 $_['error_points']   = 'Attention: Vous n\'avez pas %s de points de récompenses!';

@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Trouvez votre marque préférée';
 
-// Texte
+// Text
 $_['text_brand']       = 'Marque';
 $_['text_index']       = 'Index des marques:';
 $_['text_no_results']  = 'Il n\'y a aucun produit à afficher.';

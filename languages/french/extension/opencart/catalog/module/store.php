@@ -1,7 +1,7 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Choisir une boutique';
 
-// Texte
+// Text
 $_['text_default']  = 'Défaut';
 $_['text_store']    = 'Veuillez choisir la boutique que vous souhaitez visiter.';

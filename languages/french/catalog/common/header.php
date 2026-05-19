@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_wishlist']      = 'Liste de souhaits (%s)';
 $_['text_shopping_cart'] = 'Panier d\'achat';
 $_['text_account']       = 'Mon compte';

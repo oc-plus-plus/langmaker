@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']            = 'Clients';
 
-// Texte
+// Text
 $_['text_success']             = 'Succès: Vous avez modifié les clients!';
 $_['text_list']                = 'Liste des Clients';
 $_['text_add']                 = 'Ajouter un Client';
@@ -30,7 +30,7 @@ $_['text_login']               = 'Connexion au Magasin';
 $_['text_unlock']              = 'Déverrouiller le Compte';
 $_['text_filter']              = 'Filtrer';
 
-// Colonne
+// Column
 $_['column_name']              = 'Nom du Client';
 $_['column_email']             = 'E-Mail';
 $_['column_customer_group']    = 'Groupe de Clients';
@@ -52,7 +52,7 @@ $_['column_user_agent']        = 'Agent utilisateur';
 $_['column_address']           = 'Addresse';
 $_['column_action']            = 'Action';
 
-// Entrée
+// Entry
 $_['entry_store']              = 'Magasin';
 $_['entry_language']           = 'Langage';
 $_['entry_customer_group']     = 'Groupe de Clients';
@@ -83,18 +83,18 @@ $_['entry_ip']                 = 'IP';
 $_['entry_date_from']          = 'Date de Début';
 $_['entry_date_to']            = 'Date de Fin';
 
-// Onglet
+// Tab
 $_['tab_authorize']            = 'Autorisation';
 
-// Bouton
+// Button
 $_['button_order']             = 'Commandes';
 
-// Aide
+// Help
 $_['help_safe']                = 'Définir à vrai pour éviter que ce client soit bloqué par le système anti-fraude.';
 $_['help_commenter']           = 'Choisissez d\'activer cette option pour permettre la prévention de détection du système anti-spam pour ce client.';
 $_['help_points']              = 'Utilisez un signe moins pour supprimer des points.';
 
-// Erreur
+// Error
 $_['error_warning']            = 'Attention: Veuillez vérifier le formulaire pour les erreurs!';
 $_['error_permission']         = 'Attention: Vous n\'avez pas la permission de modifier les clients!';
 $_['error_customer']           = 'Attention: Le client n\'existe pas!';

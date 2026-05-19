@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']  = 'Page Introuvable!';
 
-// Texte
+// Text
 $_['text_not_found'] = 'La page que vous recherchez est introuvable! Veuillez contacter votre administrateur si le problème persiste.';

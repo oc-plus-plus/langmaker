@@ -1,6 +1,6 @@
 <?php
-// Texte
+// Text
 $_['text_coupon']  = 'Coupon';
 
-// Entrée
+// Entry
 $_['entry_coupon'] = 'Coupon';

@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject'] = '%s - Votre compte affilié a été refusé!';
 $_['text_welcome'] = 'Bienvenue et merci de vous être inscrit sur %s!';
 $_['text_denied']  = 'Malheureusement, votre demande a été refusée. Pour plus d\'informations, vous pouvez contacter le propriétaire de la boutique ici:';

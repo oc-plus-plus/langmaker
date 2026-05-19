@@ -1,8 +1,8 @@
 <?php
-// Texte
+// Text
 $_['text_log']               = 'Vérifiez vos rapports d\'abonnements pour plus d\'informations.';
 
-// Erreur
+// Error
 $_['error_store'] 		     = 'Attention: La boutique n\'a pu être trouvée!';
 $_['error_language']         = 'Attention: L\'extension du mode de paiement est introuvable!';
 $_['error_currency']         = 'Attention: La devise n\'a pu être trouvée!';

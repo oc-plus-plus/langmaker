@@ -1,21 +1,21 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']           = 'Pays';
 
-// Texte
+// Text
 $_['text_success']            = 'Succès: Vous avez modifié les pays!';
 $_['text_list']               = 'Liste des pays';
 $_['text_add']                = 'Ajouter un pays';
 $_['text_edit']               = 'Modifier un pays';
 $_['text_filter']             = 'Filtrer';
 
-// Colonne
+// Column
 $_['column_name']             = 'Nom du pays';
 $_['column_iso_code_2']       = 'Code ISO (2)';
 $_['column_iso_code_3']       = 'Code ISO (3)';
 $_['column_action']           = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']              = 'Nom du pays';
 $_['entry_iso_code_2']        = 'Code ISO (2)';
 $_['entry_iso_code_3']        = 'Code ISO (3)';
@@ -23,7 +23,7 @@ $_['entry_address_format']    = 'Format d\'adresse';
 $_['entry_postcode_required'] = 'Code postal requis';
 $_['entry_status']            = 'Statut';
 
-// Erreur
+// Error
 $_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les pays!';
 $_['error_name']              = 'Le nom du pays doit contenir entre 1 et 128 caractères!';
 $_['error_iso_code_2']        = 'Le code ISO Code 2 doit contenir 2 caractères!';

@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Récupération en Magasin';
 
-// Texte
+// Text
 $_['text_description'] = 'Récupération à partir de la boutique';

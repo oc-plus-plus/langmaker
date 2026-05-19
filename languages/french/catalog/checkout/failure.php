@@ -1,20 +1,20 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Paiement échoué!';
 
-// Texte
+// Text
 $_['text_basket']   = 'Panier d\'achat';
 $_['text_checkout'] = 'Paiement';
 $_['text_failure']  = 'Paiement échoué';
-$_['text_message']  = '<p>Un problème est survenu lors du traitement de votre paiement et la commande n\'a pas été finalisée.</p>
+$_['text_message']  = '<p>There was a problem processing your payment and the order did not complete.</p>
 
-<p>Les raisons possibles sont:</p>
+<p>Possible reasons are:</p>
 <ul>
-  <li>Fonds insuffisants</li>
-  <li>Échec de la vérification</li>
+  <li>Insufficient funds</li>
+  <li>Verification failed</li>
 </ul>
 
-<p>Veuillez essayer de commander à nouveau en utilisant un autre mode de paiement.</p>
+<p>Please try to order again using a different payment method.</p>
 
-<p>Si le problème persiste, veuillez <a href="%s">nous contacter</a> avec les détails de la commande que vous essayez de passer.</p>
+<p>If the problem persists please <a href="%s">contact us</a> with the details of the order you are trying to place.</p>
 ';

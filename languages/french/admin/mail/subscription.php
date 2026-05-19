@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']             = '%s - Abonnement';
 $_['text_subscription_id']     = 'ID d\'Abonnement';
 $_['text_date_added']          = 'Date d\'Abonnement:';

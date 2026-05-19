@@ -1,14 +1,14 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']                       = 'Paramètres';
 
-// Texte
+// Text
 $_['text_stores']                         = 'Magasins';
 $_['text_success']                        = 'Succès: Vous avez modifié les paramètres!';
 $_['text_edit']                           = 'Modifier les Paramètres';
 $_['text_register']                       = 'S\'inscrire';
 $_['text_guest']                          = 'Commande Invité';
-$_['text_return']                         = 'Retours';
+$_['text_return']                         = 'Retour';
 $_['text_contact']                        = 'Contact';
 $_['text_shipping']                       = 'Adresse d\'Expédition';
 $_['text_payment']                        = 'Adresse de Facturation';
@@ -53,7 +53,7 @@ $_['text_password_lowercase']             = 'Minuscule';
 $_['text_password_number']                = 'Numéro';
 $_['text_password_symbol']                = 'Symbole';
 
-// Entrée
+// Entry
 $_['entry_meta_title']                    = 'Titre Meta';
 $_['entry_meta_description']              = 'Description des Balises Meta';
 $_['entry_meta_keyword']                  = 'Mots-clés des Balises Meta';
@@ -189,7 +189,7 @@ $_['entry_error_log']                     = 'Journaliser les Erreurs';
 $_['entry_error_filename']                = 'Nom du Fichier Journal des Erreurs';
 $_['entry_status']                        = 'Statut';
 
-// Aide
+// Help
 $_['help_geocode']                        = 'Veuillez entrer manuellement le code géographique de l\'emplacement de votre magasin.';
 $_['help_icon']                           = 'L\'icône devrait être sous format PNG d\'une taille de 16px par 16px.';
 $_['help_open']                           = 'Indiquez les horaires d\'ouverture de votre magasin.';
@@ -268,7 +268,7 @@ $_['help_file_mime_allowed']              = 'Ajoutez les types MIME autorisés p
 $_['help_maintenance']                    = 'Empêche les clients de naviguer sur votre boutique. Ils verront à la place un message de maintenance. Si vous êtes connecté en tant qu\'administrateur, vous verrez la boutique normalement.';
 $_['help_compression']                    = 'GZIP pour un transfert plus efficace vers les clients demandeurs. Le niveau de compression doit être compris entre 0 et 9.';
 
-// Erreur
+// Error
 $_['error_warning']                       = 'Attention: Veuillez vérifier soigneusement le formulaire pour détecter les erreurs!';
 $_['error_permission']                    = 'Attention: Vous n\'avez pas la permission de modifier les paramètres!';
 $_['error_meta_title']                    = 'Le titre doit comporter entre 1 et 64 caractères!';

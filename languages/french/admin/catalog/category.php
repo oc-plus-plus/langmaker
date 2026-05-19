@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']           = 'Catégories';
 
-// Texte
+// Text
 $_['text_success']            = 'Succès: Vous avez modifié les catégories!';
 $_['text_list']               = 'Liste des Catégories';
 $_['text_add']                = 'Ajouter une Catégorie';
@@ -12,15 +12,16 @@ $_['text_default']            = 'Par Défaut';
 $_['text_general']            = 'Général';
 $_['text_meta']               = 'Balises Méta';
 $_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez plutôt les espaces par - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
+/* LM ADDED */ $_['text_seo']                = 'SEO URL';
 
-// Colonne
+// Column
 $_['column_image']            = 'Image';
 $_['column_name']             = 'Nom de la Catégorie';
 $_['column_status']           = 'Statut';
 $_['column_sort_order']       = 'Ordre de Tri';
 $_['column_action']           = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']              = 'Nom de la Catégorie';
 $_['entry_description']       = 'Description';
 $_['entry_meta_title']        = 'Titre de la Balise Meta';
@@ -35,11 +36,11 @@ $_['entry_sort_order']        = 'Ordre de Tri';
 $_['entry_status']            = 'Statut';
 $_['entry_layout']            = 'Remplacement de la Disposition';
 
-// Aide
+// Help
 $_['help_parent']             = '(Autocomplétion)';
 $_['help_filter']             = '(Autocomplétion)';
 
-// Erreur
+// Error
 $_['error_warning']           = 'Attention: Veuillez vérifier attentivement le formulaire pour les erreurs!';
 $_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les catégories!';
 $_['error_name']              = 'Le nom de la catégorie doit contenir entre 1 et 255 caractères!';

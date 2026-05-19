@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']               = '%s - Abonnement %s';
 $_['text_greeting']              = 'Merci pour votre intérêt pour le produit %s. Votre demande d\'abonnement a été reçue et sera traitée une fois le paiement confirmé.';
 $_['text_link']                  = 'Pour consulter votre abonnement, cliquez sur le lien ci-dessous:';

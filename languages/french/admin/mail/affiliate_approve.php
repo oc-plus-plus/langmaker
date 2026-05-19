@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']  = '%s - Votre compte affilié a été activé!';
 $_['text_welcome']  = 'Bienvenue et merci de vous être inscrit sur %s!';
 $_['text_login']    = 'Votre compte a maintenant été approuvé et vous pouvez vous connecter en utilisant votre adresse e-mail et votre mot de passe en visitant notre site Web ou à l\'URL suivante:';

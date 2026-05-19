@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']       = 'Mises en page';
 
-// Texte
+// Text
 $_['text_success']        = 'Succès: Vous avez modifié les mises en page!';
 $_['text_list']           = 'Liste des mises en page';
 $_['text_add']            = 'Ajouter une mise en page';
@@ -16,16 +16,16 @@ $_['text_content_bottom'] = 'Contenu bas';
 $_['text_column_left']    = 'Colonne gauche';
 $_['text_column_right']   = 'Colonne droite';
 
-// Colonne
+// Column
 $_['column_name']         = 'Nom de la mise en page';
 $_['column_action']       = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']          = 'Nom de la mise en page';
 $_['entry_store']         = 'Magasin';
 $_['entry_route']         = 'Itinéraire';
 
-// Erreur
+// Error
 $_['error_permission']    = 'Attention: Vous n\'avez pas la permission de modifier les mises en page!';
 $_['error_name']          = 'Le nom de la mise en page doit contenir entre 3 et 64 caractères!';
 $_['error_default']       = 'Attention: Cette mise en page ne peut pas être supprimée car elle est actuellement assignée comme mise en page par défaut du magasin!';
@@ -34,3 +34,5 @@ $_['error_product']       = 'Attention: Cette mise en page ne peut pas être sup
 $_['error_category']      = 'Attention: Cette mise en page ne peut pas être supprimée car elle est actuellement assignée à %s catégories!';
 $_['error_manufacturer']  = 'Attention: Cette mise en page ne peut pas être supprimée car elle est actuellement assignée à %s fabricants!';
 $_['error_information']   = 'Attention: Cette mise en page ne peut pas être supprimée car elle est actuellement assignée à %s pages d\'informations!';
+/* LM ADDED */ $_['error_article']       = 'Warning: This layout cannot be deleted as it is currently assigned to %s article pages!';
+/* LM ADDED */ $_['error_topic']         = 'Warning: This layout cannot be deleted as it is currently assigned to %s topic pages!';

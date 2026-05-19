@@ -1,8 +1,8 @@
 <?php
-// Texte
+// Text
 $_['text_success']           = 'Succès: La méthode d\'expédition a été définie!';
 
-// Erreur
+// Error
 $_['error_customer']         = 'Attention: Les détails du client sont requis!';
 $_['error_shipping_address'] = 'Attention: L\'adresse d\'expédition est requise!';
 $_['error_shipping']         = 'Attention: Aucun produit ne nécessite d\'expédition';

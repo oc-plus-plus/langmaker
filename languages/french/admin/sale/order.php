@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']              = 'Commandes';
 
-// Texte
+// Text
 $_['text_success']               = 'Succès: Vous avez modifié les commandes!';
 $_['text_list']                  = 'Liste des commandes';
 $_['text_add']                   = 'Ajouter une commande';
@@ -66,7 +66,7 @@ $_['text_jan']                   = 'JAN';
 $_['text_isbn']                  = 'ISBN';
 $_['text_mpn']                   = 'MPN';
 
-// Colonne
+// Column
 $_['column_order_id']            = 'ID de commande';
 $_['column_customer']            = 'Client';
 $_['column_store']               = 'Boutique';
@@ -85,7 +85,7 @@ $_['column_reference']           = 'Référence';
 $_['column_weight']              = 'Poids du produit';
 $_['column_action']              = 'Action';
 
-// Entrée
+// Entry
 $_['entry_store']                = 'Boutique';
 $_['entry_customer']             = 'Client';
 $_['entry_customer_group']       = 'Groupe de clients';
@@ -120,10 +120,10 @@ $_['entry_date_to']              = 'Date de fin';
 $_['entry_date_modified_from']   = 'Date de modification à partir de';
 $_['entry_date_modified_to']     = 'Date de modification jusqu\'à';
 
-// Aide
+// Help
 $_['help_override']              = 'Si la commande du client est bloquée pour changer le statut de la commande en raison d\'une extension anti-fraude, activez le dépassement.';
 
-// Erreur
+// Error
 $_['error_warning']              = 'Avertissement: Veuillez vérifier attentivement le formulaire pour les erreurs!';
 $_['error_permission']           = 'Avertissement: Vous n\'avez pas la permission de modifier les commandes!';
 $_['error_invoice_no']           = 'Avertissement: Le N° de facture a déjà été créé!';

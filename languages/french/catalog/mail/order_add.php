@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']               = '%s - Commande %s';
 $_['text_greeting']              = 'Merci pour votre intérêt pour les produits %s. Votre commande a été reçue et sera traitée une fois le paiement confirmé.';
 $_['text_link']                  = 'Pour consulter votre commande, cliquez sur le lien ci-dessous:';
@@ -23,7 +23,6 @@ $_['text_price']                 = 'Prix';
 $_['text_order_total']           = 'Totaux de la commande';
 $_['text_total']                 = 'Total';
 $_['text_subscription']          = 'Abonnement';
-$_['text_subscription_trial']    = '%s tous les %d %s(s) pour %d paiement(s) puis ';
 $_['text_subscription_duration'] = '%s tous les %d %s pour %d paiement(s)';
 $_['text_subscription_cancel']   = '%s tous les %d %s jusqu\'à annulation';
 $_['text_day']                   = 'jour';
@@ -34,3 +33,9 @@ $_['text_year']                  = 'année';
 $_['text_download']              = 'Une fois votre paiement confirmé, vous pouvez cliquer sur le lien ci-dessous pour accéder à vos produits téléchargeables:';
 $_['text_comment']               = 'Les commentaires pour votre commande sont:';
 $_['text_footer']                = 'Veuillez répondre à cet e-mail si vous avez des questions.';
+
+/**
+ * LM REMOVED
+ * These keys were redundant and were removed.
+ */
+// $_['text_subscription_trial'] = '%s tous les %d %s(s) pour %d paiement(s) puis ';

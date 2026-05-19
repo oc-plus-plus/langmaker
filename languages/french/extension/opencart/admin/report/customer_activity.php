@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']                = 'Rapport d\'Activités des Clients';
 
-// Texte
+// Text
 $_['text_extension']               = 'Extensions';
 $_['text_edit']                    = 'Modifier le Rapport d\'Activités des Clients';
 $_['text_success']                 = 'Succès: Vous avez modifié le rapport d\'Activités des clients!';
@@ -24,13 +24,13 @@ $_['text_activity_affiliate_add']  = '<a href="customer_id=%d">%s</a> a créé u
 $_['text_activity_affiliate_edit'] = '<a href="customer_id=%d">%s</a> a modifié leur compte affilié.';
 $_['text_activity_transaction']    = '<a href="customer_id=%d">%s</a> a reçu une commission d\'une nouvelle <a href="order_id=%d">commande</a>.';
 
-// Colonne
+// Column
 $_['column_customer']              = 'Client';
 $_['column_comment']               = 'Commentaire';
 $_['column_ip']                    = 'IP';
 $_['column_date_added']            = 'Date d\'Ajout';
 
-// Entrée
+// Entry
 $_['entry_customer']               = 'Client';
 $_['entry_ip']                     = 'IP';
 $_['entry_date_start']             = 'Date de Début';
@@ -38,5 +38,5 @@ $_['entry_date_end']               = 'Date de Fin';
 $_['entry_status']                 = 'Statut';
 $_['entry_sort_order']             = 'Ordre de Tri';
 
-// Erreur
+// Error
 $_['error_permission']             = 'Attention: Vous n\'avez pas la permission de modifier le rapport d\'activités des clients!';

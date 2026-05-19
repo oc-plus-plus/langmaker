@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']              = 'Panier d\'achat';
 
-// Texte
+// Text
 $_['text_success']               = 'Succès: Vous avez ajouté <a href="%s">%s</a> à votre <a href="%s">panier d\'achat</a>!';
 $_['text_edit']                  = 'Succès: Vous avez modifié votre panier d\'achat!';
 $_['text_remove']                = 'Succès: Vous avez retiré un article de votre panier d\'achat!';
@@ -22,14 +22,14 @@ $_['text_points']                = 'Points de récompenses';
 $_['text_next']                  = 'Que souhaitez-vous faire ensuite?';
 $_['text_next_choice']           = 'Choisissez si vous avez un code de réduction ou des points de récompenses que vous souhaitez utiliser ou si vous souhaitez estimer le coût de votre expédition.';
 
-// Colonne
+// Column
 $_['column_image']               = 'Image';
 $_['column_name']                = 'Nom du produit';
 $_['column_quantity']            = 'Quantité';
 $_['column_price']               = 'Prix unitaire';
 $_['column_total']               = 'Total';
 
-// Erreur
+// Error
 $_['error_stock']                = 'Les produits marqués avec *** ne sont pas disponibles en quantité souhaitée ou ne sont pas en stock!';
 $_['error_minimum']              = 'Le montant minimum de commande pour %s est de %s!';
 $_['error_required']             = '%s requis!';

@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']  = '%s - Avis sur un produit';
 $_['text_waiting']  = 'Vous avez un nouvel avis produit en attente.';
 $_['text_product']  = 'Produit:';

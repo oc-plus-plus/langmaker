@@ -1,3 +1,3 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Topiques';

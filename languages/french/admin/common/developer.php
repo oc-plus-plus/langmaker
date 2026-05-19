@@ -1,22 +1,31 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']          = 'Paramètres Développeur';
 
-// Texte
+// Text
 $_['text_developer_success'] = 'Succès: Vous avez modifié les paramètres développeur!';
-$_['text_cache_success']     = 'Succès: Vous avez vidé le cache!';
-$_['text_theme_success']     = 'Succès: Vous avez vidé le cache theme!';
+/* LM ADDED */ $_['text_systemcache_success'] = 'Success: You have cleared the system cache!';
+/* LM ADDED */ $_['text_imagecache_success']  = 'Success: You have cleared the image cache!';
 $_['text_sass_success']      = 'Succès: Vous avez vidé le cache SASS!';
-$_['text_theme']             = 'Thème';
+/* LM ADDED */ $_['text_imagecache']        = 'Image Cache';
 $_['text_sass']              = 'SASS';
-$_['text_cache']             = 'Cache';
+/* LM ADDED */ $_['text_systemcache']       = 'System Cache';
 
-// Colonne
+// Column
 $_['column_component']       = 'Composant';
 $_['column_action']          = 'Action';
 
-// Entrée
+// Entry
 $_['entry_cache']            = 'Cache';
 
-// Erreur
+// Error
 $_['error_permission']       = 'Attention: Vous n\'avez pas la permission de modifier les paramètres développeur!';
+
+/**
+ * LM REMOVED
+ * These keys were redundant and were removed.
+ */
+// $_['text_cache_success'] = 'Succès: Vous avez vidé le cache!';
+// $_['text_theme_success'] = 'Succès: Vous avez vidé le cache theme!';
+// $_['text_theme'] = 'Thème';
+// $_['text_cache'] = 'Cache';

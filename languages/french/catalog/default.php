@@ -1,5 +1,5 @@
 <?php
-// Lieu
+// Locale
 $_['code']                  = 'fr';
 $_['direction']             = 'ltr';
 $_['date_format_short']     = 'd/m/Y';
@@ -9,12 +9,13 @@ $_['datetime_format']       = 'd/m/Y H:i:s';
 $_['decimal_point']         = ',';
 $_['thousand_point']        = ' ';
 
-// Texte
+// Text
 $_['text_home']             = '<i class="fas fa-home"></i>';
 $_['text_yes']              = 'Oui';
 $_['text_no']               = 'Non';
 $_['text_none']             = ' --- Aucun --- ';
 $_['text_select']           = ' --- Veuillez sélectionner --- ';
+/* LM ADDED */ $_['text_all']              = 'All';
 $_['text_all_zones']        = 'Toutes les zones';
 $_['text_pagination']       = 'Affichage de %d à %d sur %d (%d Pages)';
 $_['text_loading']          = 'Chargement...';
@@ -34,7 +35,7 @@ $_['text_months_ago']       = 'il y a %s mois';
 $_['text_year_ago']         = 'il y a %s an';
 $_['text_years_ago']        = 'il y a %s ans';
 
-// Bouton
+// Buttons
 $_['button_address_add']    = 'Ajouter une adresse';
 $_['button_back']           = 'Retour';
 $_['button_continue']       = 'Continuer';
@@ -72,7 +73,7 @@ $_['button_list']           = 'Liste';
 $_['button_grid']           = 'Grille';
 $_['button_map']            = 'Voir la carte Google';
 
-// Erreur
+// Error
 $_['error_exception']       = 'Code d\'erreur (%s): %s dans %s à la ligne %s';
 $_['error_upload_1']        = 'Attention: Le fichier téléchargé dépasse la directive upload_max_filesize dans php.ini!';
 $_['error_upload_2']        = 'Attention: Le fichier téléchargé dépasse la directive MAX_FILE_SIZE spécifiée dans le formulaire HTML!';
@@ -86,10 +87,7 @@ $_['error_upload_size']     = 'Attention: Le fichier téléchargé dépasse la t
 $_['error_curl']            = 'CURL: Code d\'erreur (%s): %s';
 $_['error_session']         = 'Attention: La session a expiré, veuillez soumettre à nouveau le formulaire!';
 
-// Sélecteur de date
-$_['datepicker']            = 'fr';
-
-// Lorsqu'on effectue la traduction, il faut seulement inclure le code de langage correspondant
+// When doing translations only include the matching language code
 // Datepicker
 //$_['datepicker']            = 'af';
 //$_['datepicker']            = 'ar-dz';

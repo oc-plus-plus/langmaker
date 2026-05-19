@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']      = '%s - Mise à jour de la commande %s';
 $_['text_order_id']     = 'ID de la commande:';
 $_['text_date_added']   = 'Date d\'ajout:';

@@ -1,20 +1,20 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Expédition Gratuite';
 
-// Texte
+// Text
 $_['text_extension']   = 'Extensions';
 $_['text_success']     = 'Succès: Vous avez modifié les tarifs d\'expédition gratuite!';
 $_['text_edit']        = 'Modifier les tarifs d\'Expédition Gratuite';
 
-// Entrée
+// Entry
 $_['entry_total']      = 'Sous-Total';
 $_['entry_geo_zone']   = 'Zone Géographique';
 $_['entry_status']     = 'Statut';
 $_['entry_sort_order'] = 'Ordre de Tri';
 
-// Aide
+// Help
 $_['help_total']       = 'Le montant total qui doit être atteint avant que le module d\'expédition gratuite soit valide.';
 
-// Erreur
+// Error
 $_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les tarifs d\'expédition gratuite!';

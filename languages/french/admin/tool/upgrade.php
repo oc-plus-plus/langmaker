@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']        = 'Mise à niveau';
 
-// Texte
+// Text
 $_['text_success']         = 'Succès: Vous utilisez la dernière version %s!';
 $_['text_upgrade']         = 'Vérifier la dernière version';
 $_['text_information']     = 'Informations sur la version';
@@ -16,10 +16,10 @@ $_['text_download']        = 'Téléchargement de la dernière version...';
 $_['text_install']         = 'Copie des fichiers...';
 $_['text_patch']           = 'Application des correctifs...';
 
-// Bouton
+// Button
 $_['button_upgrade']       = 'Mettre à niveau';
 
-// Erreur
+// Error
 $_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier les mises à niveau!';
 $_['error_version']        = 'La version est inférieure à la version actuelle!';
 $_['error_download']       = 'La mise à niveau n\'a pas pu être téléchargée!';

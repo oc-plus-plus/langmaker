@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Offres spéciales';
 
-// Texte
+// Text
 $_['text_no_results']  = 'Il n\'y a aucun produit en offre spéciale à afficher.';
 $_['text_compare']     = 'Comparateur de produits (%s)';
 $_['text_sort']        = 'Trier par';

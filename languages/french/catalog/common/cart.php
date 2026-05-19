@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_items']                 = '%s article(s) - %s';
 $_['text_points']                = 'Points de récompenses';
 $_['text_subscription']          = 'Abonnement';
@@ -15,5 +15,5 @@ $_['text_model']                 = 'Modèle';
 $_['text_cart']                  = 'Voir le panier';
 $_['text_checkout']              = 'Paiement';
 
-// Erreur
+// Error
 $_['error_product']              = 'Attention: Le produit est introuvable!';

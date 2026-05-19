@@ -1,8 +1,8 @@
 <?php
-// Texte
+// Text
 $_['text_success']   = 'Succès: Votre coupon a été appliqué!';
 
-// Erreur
+// Error
 $_['error_customer'] = 'Attention: Les détails du client sont requis!';
 $_['error_product']  = 'Attention: Le produit est requis!';
 $_['error_coupon']   = 'Attention: Le coupon est soit invalide, expiré, ou a atteint sa limite d\'utilisation!';

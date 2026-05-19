@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']      = 'Carnet d\'adresses';
 
-// Texte
+// Text
 $_['text_account']       = 'Compte';
 $_['text_address_book']  = 'Entrées du carnet d\'adresses';
 $_['text_address_add']   = 'Ajouter une adresse';
@@ -13,7 +13,7 @@ $_['text_delete']        = 'Votre adresse a été supprimée avec succès';
 $_['text_no_results']    = 'Vous n\'avez aucune adresse dans votre compte.';
 $_['text_default']       = 'Défaut';
 
-// Entrée
+// Entry
 $_['entry_firstname']    = 'Prénom';
 $_['entry_lastname']     = 'Nom';
 $_['entry_company']      = 'Entreprise';
@@ -25,7 +25,7 @@ $_['entry_country']      = 'Pays';
 $_['entry_zone']         = 'Région / État';
 $_['entry_default']      = 'Adresse par défaut';
 
-// Erreur
+// Error
 $_['error_token']        = 'Attention: Jeton d\'adresse invalide!';
 $_['error_subscription'] = 'Attention: L\'adresse est encore utilisée par %s abonnements actifs!';
 $_['error_default']      = 'Attention: L\'adresse par défaut est requise!';

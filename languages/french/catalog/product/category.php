@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_refine']      = 'Affiner la recherche';
 $_['text_product']     = 'Produits';
 $_['text_no_results']  = 'Aucun produit à afficher dans cette catégorie.';

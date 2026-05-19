@@ -1,20 +1,20 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Langues';
 
-// Texte
+// Text
 $_['text_success']      = 'Succès: Vous avez modifié les langues!';
 $_['text_list']         = 'Liste des Langues';
 $_['text_add']          = 'Ajouter une Langue';
 $_['text_edit']         = 'Modifier une Langue';
 
-// Colonne
+// Column
 $_['column_name']       = 'Nom de la Langue';
 $_['column_code']       = 'Code';
 $_['column_sort_order'] = 'Ordre de Tri';
 $_['column_action']     = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']        = 'Nom de la Langue';
 $_['entry_code']        = 'Code';
 $_['entry_extension']   = 'Extension';
@@ -22,11 +22,11 @@ $_['entry_locale']      = 'Locale';
 $_['entry_status']      = 'Statut';
 $_['entry_sort_order']  = 'Ordre de Tri';
 
-// Aide
+// Help
 $_['help_locale']       = 'Exemple: fr_FR.UTF-8,fr_FR,fr-fr,français';
 $_['help_status']       = 'Masquer/Afficher dans le menu déroulant des langues';
 
-// Erreur
+// Error
 $_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les langues!';
 $_['error_exists']      = 'Attention: Vous avez déjà ajouté cette langue!';
 $_['error_name']        = 'Le nom de la langue doit contenir entre 1 et 32 caractères!';

@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']          = 'Mode de paiement';
 
-// Texte
+// Text
 $_['text_payment_method']    = 'Options de mode de paiement';
 $_['text_payment']           = 'Veuillez sélectionner le mode de paiement préféré à utiliser pour cette commande.';
 $_['text_comments']          = 'Ajouter des commentaires sur votre commande';
@@ -10,10 +10,10 @@ $_['text_agree']             = 'J\'ai lu et j\'accepte les <a href="%s" class="m
 $_['text_success']           = 'Succès: Vous avez modifié le mode de paiement!';
 $_['text_comment']           = 'Succès: Commentaire ajouté!';
 
-// Entrée
+// Entry
 $_['entry_payment_method']   = 'Choisir un mode de paiement...';
 
-// Erreur
+// Error
 $_['error_order']            = 'La commande n\'a pu être trouvée. Veuillez svp actualiser la page de nouveau.';
 $_['error_customer']         = 'Client requis!';
 $_['error_payment_address']  = 'Adresse de facturation requise!';

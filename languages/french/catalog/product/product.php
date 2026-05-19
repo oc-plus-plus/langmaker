@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_search']                = 'Recherche';
 $_['text_brand']                 = 'Marque';
 $_['text_manufacturer']          = 'Marque:';
@@ -24,11 +24,11 @@ $_['text_semi_month']            = 'demi-mois';
 $_['text_month']                 = 'mois';
 $_['text_year']                  = 'année';
 
-// Entrée
+// Entry
 $_['entry_qty']                  = 'Qté';
 $_['entry_rating']               = 'Évaluation';
 
-// Onglets
+// Tabs
 $_['tab_description']            = 'Description';
 $_['tab_attribute']              = 'Spécifications';
 $_['tab_review']                 = 'Avis (%s)';

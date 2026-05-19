@@ -1,9 +1,9 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']     = 'Recherche';
 $_['heading_tag']       = 'Tag - ';
 
-// Texte
+// Text
 $_['text_search']       = 'Produits correspondant aux critères de recherche';
 $_['text_keyword']      = 'Mots-clés';
 $_['text_category']     = 'Toutes les catégories';
@@ -22,6 +22,6 @@ $_['text_model_asc']    = 'Modèle (A - Z)';
 $_['text_model_desc']   = 'Modèle (Z - A)';
 $_['text_limit']        = 'Afficher';
 
-// Entrée
+// Entry
 $_['entry_search']      = 'Critères de recherche';
 $_['entry_description'] = 'Rechercher dans les descriptions des produits';

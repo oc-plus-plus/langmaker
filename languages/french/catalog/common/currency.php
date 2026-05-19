@@ -1,6 +1,6 @@
 <?php
-// Texte
+// Text
 $_['text_currency']  = 'Devise';
 
-// Erreur
+// Error
 $_['error_currency'] = 'Attention: La devise n\'est pas disponible!';

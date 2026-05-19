@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Paiement';
 
-// Texte
+// Text
 $_['text_cart']     = 'Panier d\'achat';

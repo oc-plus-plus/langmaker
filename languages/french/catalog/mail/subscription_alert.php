@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']              = '%s - Commande %s - Abonnement annulé';
 $_['text_received']             = 'Vous avez reçu une annulation d\'abonnement.';
 $_['text_orders_id']            = 'ID de commande:';

@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']      = '%s - Commande %s';
 $_['text_received']     = 'Vous avez reçu une commande.';
 $_['text_order_id']     = 'ID de la commande:';

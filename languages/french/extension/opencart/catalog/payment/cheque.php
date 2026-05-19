@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Chèque / Mandat Poste';
 
-// Texte
+// Text
 $_['text_instruction'] = 'Instructions de Chèque / Mandat Poste';
 $_['text_payable']     = 'Exigibilité: ';
 $_['text_address']     = 'Envoyé à: ';

@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Taux d\'Expédition Forfaitaire';
 
-// Texte
+// Text
 $_['text_description'] = 'Tarif d\'Expédition Forfaitaire';

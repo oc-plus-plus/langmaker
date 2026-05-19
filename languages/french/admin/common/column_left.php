@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_address_format']      = 'Format d\'Adresse';
 $_['text_affiliate']           = 'Affiliation';
 $_['text_api']                 = 'API';

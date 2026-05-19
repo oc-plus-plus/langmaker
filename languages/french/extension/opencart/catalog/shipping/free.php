@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Expédition Gratuite';
 
-// Texte
+// Text
 $_['text_description'] = 'Expédition Gratuite';

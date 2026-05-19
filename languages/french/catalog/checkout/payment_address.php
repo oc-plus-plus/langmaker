@@ -1,13 +1,13 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']         = 'Adresse de facturation';
 
-// Texte
+// Text
 $_['text_address_new']      = 'Je souhaite utiliser une nouvelle adresse';
 $_['text_address_existing'] = 'Je souhaite utiliser une adresse existante';
 $_['text_success']          = 'Succès: Vous avez modifié l\'adresse de facturation!';
 
-// Entrée
+// Entry
 $_['entry_address']         = 'Choisir une adresse';
 $_['entry_firstname']       = 'Prénom';
 $_['entry_lastname']        = 'Nom';
@@ -19,7 +19,7 @@ $_['entry_city']            = 'Ville';
 $_['entry_country']         = 'Pays';
 $_['entry_zone']            = 'Région / État';
 
-// Erreur
+// Error
 $_['error_customer']        = 'Client requis!';
 $_['error_address']         = 'L\'adresse de facturation est introuvable!';
 $_['error_firstname']       = 'Le prénom doit contenir entre 1 et 32 caractères!';

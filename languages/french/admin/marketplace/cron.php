@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']        = 'Tâches Cron';
 
-// Texte
+// Text
 $_['text_success']         = 'Succès: Vous avez modifié les tâches cron!';
 $_['text_instruction']     = 'Instructions CRON';
 $_['text_list']            = 'Liste des tâches Cron';
@@ -13,16 +13,16 @@ $_['text_hour']            = 'Heure';
 $_['text_day']             = 'Jour';
 $_['text_month']           = 'Mois';
 
-// Colonne
+// Column
 $_['column_code']          = 'Code Cron';
 $_['column_cycle']         = 'Cycle';
 $_['column_date_added']    = 'Date d\'ajout';
 $_['column_date_modified'] = 'Date de modification';
 $_['column_action']        = 'Action';
 
-// Entrée
+// Entry
 $_['entry_cron']           = 'URL Cron';
 $_['entry_description']    = 'Description';
 
-// Erreur
+// Error
 $_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier les tâches cron!';

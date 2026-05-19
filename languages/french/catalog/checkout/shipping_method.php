@@ -1,16 +1,16 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']          = 'Mode d\'Expédition';
 
-// Texte
+// Text
 $_['text_shipping_method']   = 'Options de mode d\'expédition';
 $_['text_shipping']          = 'Veuillez sélectionner le mode d\'expédition préféré à utiliser pour cette commande.';
 $_['text_success']           = 'Succès: Vous avez modifié le mode d\'expédition!';
 
-// Entrée
+// Entry
 $_['entry_shipping_method']  = 'Choisir un mode d\'Expédition...';
 
-// Erreur
+// Error
 $_['error_customer']         = 'Client requis!';
 $_['error_payment_address']  = 'Adresse de facturation requise!';
 $_['error_shipping_address'] = 'Adresse d\'expédition requise!';

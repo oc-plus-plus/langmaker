@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_subject']        = '%s - Merci pour votre inscription';
 $_['text_welcome']        = 'Bienvenue et merci de vous être inscrit sur %s!';
 $_['text_login']          = 'Votre compte a été créé, et vous pouvez vous connecter en utilisant votre adresse e-mail et votre mot de passe en visitant notre site web ou à l\'URL suivante:';
@@ -14,5 +14,5 @@ $_['text_lastname']       = 'Nom:';
 $_['text_email']          = 'E-Mail:';
 $_['text_telephone']      = 'Téléphone:';
 
-// Bouton
+// Button
 $_['button_login']        = 'Connexion';

@@ -1,8 +1,8 @@
 <?php
-// Texte
+// Text
 $_['text_success']       = 'Succès: L\'adresse d\'expédition a été définie!';
 
-// Erreur
+// Error
 $_['error_firstname']    = 'Le prénom doit contenir entre 1 et 32 caractères!';
 $_['error_lastname']     = 'Le nom doit contenir entre 1 et 32 caractères!';
 $_['error_address_1']    = 'L\'adresse 1 doit contenir entre 3 et 128 caractères!';

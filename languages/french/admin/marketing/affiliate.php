@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']             = 'Affiliés';
 
-// Texte
+// Text
 $_['text_success']              = 'Succès: Vous avez modifié les affiliés!';
 $_['text_list']                 = 'Liste des affiliés';
 $_['text_add']                  = 'Ajouter un affilié';
@@ -21,7 +21,7 @@ $_['text_transaction_add']      = 'Ajouter une transaction';
 $_['text_report']               = 'Rapports';
 $_['text_filter']               = 'Filtrer';
 
-// Colonne
+// Column
 $_['column_name']               = 'Nom du client';
 $_['column_tracking']           = 'Suivi';
 $_['column_commission']         = 'Commission';
@@ -37,7 +37,7 @@ $_['column_description']        = 'Description';
 $_['column_amount']             = 'Montant';
 $_['column_action']             = 'Action';
 
-// Entrée
+// Entry
 $_['entry_customer']            = 'Client';
 $_['entry_company']             = 'Entreprise';
 $_['entry_tracking']            = 'Code de suivi';
@@ -60,11 +60,11 @@ $_['entry_date_to']             = 'Date de fin';
 $_['entry_status']              = 'Statut';
 $_['entry_limit']               = 'Limite';
 
-// Aide
+// Help
 $_['help_tracking']             = 'Le code de suivi qui sera utilisé pour suivre les références.';
 $_['help_commission']           = 'Pourcentage que l\'affilié reçoit sur chaque commande.';
 
-// Erreur
+// Error
 $_['error_warning']             = 'Attention: Veuillez vérifier attentivement le formulaire pour les erreurs!';
 $_['error_permission']          = 'Attention: Vous n\'avez pas la permission de modifier les affiliés!';
 $_['error_customer']            = 'Attention: Client requis!';

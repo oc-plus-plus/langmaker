@@ -1,6 +1,6 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Expédition par Poids de Matériaux';
 
-// Texte
+// Text
 $_['text_weight']   = 'Poids:';

@@ -1,20 +1,20 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']      = 'Informations sur Mon Compte';
 
-// Texte
+// Text
 $_['text_account']       = 'Compte';
 $_['text_edit']          = 'Modifier les Informations';
 $_['text_your_details']  = 'Vos Informations Personnelles';
 $_['text_success']       = 'Succès: Votre compte a été mis à jour avec succès.';
 
-// Entrée
+// Entry
 $_['entry_firstname']    = 'Prénom';
 $_['entry_lastname']     = 'Nom';
 $_['entry_email']        = 'E-mail';
 $_['entry_telephone']    = 'Téléphone';
 
-// Erreur
+// Error
 $_['error_token']        = 'Attention: Jeton de modification invalide!';
 $_['error_exists']       = 'Attention: L\'adresse e-mail est déjà enregistrée!';
 $_['error_firstname']    = 'Le prénom doit contenir entre 1 et 32 caractères!';

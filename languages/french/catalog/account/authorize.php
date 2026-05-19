@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Protégez votre compte';
 
-// Texte
+// Text
 $_['text_security'] = 'Vous devez répondre à une question de sécurité chaque fois que vous vous connectez depuis un appareil ou un ordinateur inconnu.';
 $_['text_code']     = 'Un e-mail contenant un code de sécurité a été envoyé à votre adresse e-mail. Entrez le code ci-dessous pour continuer.';
 $_['text_sent']     = 'Succès: Un e-mail a été envoyé à votre adresse e-mail contenant un code de sécurité!';
@@ -13,12 +13,12 @@ $_['text_unlocked'] = 'Succès: Votre compte a été déverrouillé!';
 $_['text_unlock']   = 'Votre compte a été verrouillé. Vous devrez vous identifier de nouveau et de répéter la procédure avec l\'identification multi-facteur (2FA) pour continuer.';
 $_['text_failed']   = 'Le code de sécurité n\'a pu être réinitialisé!';
 
-// Entrée
+// Entry
 $_['entry_code']    = 'Code de sécurité';
 
-// Bouton
+// Button
 $_['button_send']   = 'Envoyer';
 $_['button_reset']  = 'Réinitialiser';
 
-// Erreur
+// Error
 $_['error_code']    = 'Vous avez dépassé le nombre autorisé de tentatives de saisie du code de sécurité!';

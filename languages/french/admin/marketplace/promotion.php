@@ -1,5 +1,5 @@
 <?php
-// Texte
+// Text
 $_['text_recommended'] = 'Recommandé';
 $_['text_install']     = 'Installer';
 $_['text_uninstall']   = 'Désinstaller';

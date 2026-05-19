@@ -1,29 +1,30 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']          = 'Installateur d\'extensions';
 
-// Texte
+// Text
 $_['text_upload']            = 'Succès: l\'extension a été téléchargée!';
 $_['text_success']           = 'Succès: Vous avez modifié les extensions!';
 $_['text_progress']          = 'Progression de l\'installation';
 $_['text_installed']         = 'Extensions installées';
 $_['text_info']              = 'Information sur les extensions';
 $_['text_install']           = 'Installation des fichiers à partir de %s envers %s de %s';
+/* LM ADDED */ $_['text_vendor']            = 'Refresh vendor files';
 
-// Colonne
+// Column
 $_['column_image']           = 'Image';
 $_['column_name']            = 'Nom de l\'extension';
 $_['column_version']         = 'Version';
 $_['column_date_added']      = 'Date d\'ajout';
 $_['column_action']          = 'Action';
 
-// Entrée
+// Entry
 $_['entry_progress']         = 'Progression';
 $_['entry_name']             = 'Nom de l\'extension';
 $_['entry_description']      = 'Description';
 $_['entry_code']             = 'Code';
 
-// Erreur
+// Error
 $_['error_permission']       = 'Attention: Vous n\'avez pas la permission de modifier les extensions!';
 $_['error_install']          = 'Attention: Impossible de trouver install.json!';
 $_['error_default']          = 'l\'extension par défaut ne peut pas être désinstallée ou supprimée!';
@@ -43,7 +44,7 @@ $_['error_unzip']            = 'Impossible d\'ouvrir le fichier .zip!';
 $_['error_upload']           = 'Le fichier n\'a pu être téléchargé!';
 $_['error_unknown']          = 'Une erreur inconnue s’est produite!';
 
-// Zip erreur
+// Zip errors
 $_['zip_error_exists']       = 'Le fichier existe déjà!';
 $_['zip_error_incons']       = 'Archive zip incohérente!';
 $_['zip_error_inval']        = 'Argument invalide!';

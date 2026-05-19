@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title'] = 'Votre commande a été passée!';
 
-// Texte
+// Text
 $_['text_basket']   = 'Panier d\'achat';
 $_['text_checkout'] = 'Paiement';
 $_['text_success']  = 'Succès';

@@ -1,17 +1,17 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']    = 'Gestionnaire d\'Images';
 
-// Texte
+// Text
 $_['text_uploaded']    = 'Succès: Votre fichier a été téléversé!';
 $_['text_directory']   = 'Succès: Répertoire créé!';
 $_['text_delete']      = 'Succès: Votre fichier ou répertoire a été supprimé!';
 
-// Entrée
+// Entry
 $_['entry_search']     = 'Rechercher..';
 $_['entry_folder']     = 'Nom du Répertoire';
 
-// Erreur
+// Error
 $_['error_permission'] = 'Attention: Permission refusée!';
 $_['error_filename']   = 'Attention: Le nom du fichier doit contenir entre 3 et 255 caractères!';
 $_['error_folder']     = 'Attention: Le nom du répertoire doit contenir entre 3 et 255 caractères!';

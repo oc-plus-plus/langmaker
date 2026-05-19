@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']      = 'Le Marché d\'Extensions';
 
-// Texte
+// Text
 $_['text_success']       = 'Succès: Vous avez modifié les extensions!';
 $_['text_list']          = 'Liste des extensions';
 $_['text_filter']        = 'Filtrer';
@@ -38,7 +38,7 @@ $_['text_documentation'] = 'Documentation incluse';
 $_['text_sales']         = 'Ventes';
 $_['text_comment']       = 'Commentaires';
 $_['text_download']      = 'Téléchargement';
-$_['text_install']       = 'Installation';
+$_['text_install']       = 'Installer';
 $_['text_comment_add']   = 'Laissez votre commentaire';
 $_['text_write']         = 'Écrivez votre commentaire ici.';
 $_['text_purchase']      = 'Veuillez confirmer votre identité!';
@@ -53,16 +53,16 @@ $_['text_delete']        = 'Supprimer';
 $_['text_more']          = 'voir plus de réponses...';
 $_['text_refresh']       = 'Actualiser';
 
-// Entrée
+// Entry
 $_['entry_pin']          = 'PIN';
 
-// Onglets
+// Tabs
 $_['tab_description']    = 'Description';
 $_['tab_documentation']  = 'Documentation';
 $_['tab_download']       = 'Téléchargement';
 $_['tab_comment']        = 'Commentaire';
 
-// Bouton
+// Buttons
 $_['button_api']         = 'Le Marché API';
 $_['button_purchase']    = 'Acheter';
 $_['button_view_all']    = 'Voir toutes les extensions';
@@ -71,7 +71,7 @@ $_['button_comment']     = 'Commenter';
 $_['button_reply']       = 'Répondre';
 $_['button_forgot_pin']  = 'PIN oublié?';
 
-// Erreur
+// Error
 $_['error_permission']   = 'Attention: Vous n\'avez pas la permission de modifier les extensions!';
 $_['error_api']          = 'Attention: Vous devez entrer vos informations d\'API OpenCart en cliquant sur <i class="fa-solid fa-triangle-exclamation"></i> avant de pouvoir télécharger des extensions ou effectuer des achats!';
 $_['error_purchase']     = 'L\'extension n\'a pas pu être achetée!';

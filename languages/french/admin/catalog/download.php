@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']            = 'Téléchargements';
 
-// Texte
+// Text
 $_['text_success']             = 'Succès: Vous avez modifié les téléchargements!';
 $_['text_list']                = 'Liste des Téléchargements';
 $_['text_add']                 = 'Ajouter un Téléchargement';
@@ -10,7 +10,7 @@ $_['text_edit']                = 'Modifier le Téléchargement';
 $_['text_upload']              = 'Votre fichier a été téléchargé avec succès!';
 $_['text_report']              = 'Rapports';
 
-// Colonne
+// Column
 $_['column_name']              = 'Nom du Téléchargement';
 $_['column_ip']                = 'IP';
 $_['column_account']           = 'Comptes';
@@ -19,16 +19,16 @@ $_['column_country']           = 'Pays';
 $_['column_date_added']        = 'Date d\'ajout';
 $_['column_action']            = 'Action';
 
-// Entrée
+// Entry
 $_['entry_name']               = 'Nom du Téléchargement';
 $_['entry_filename']           = 'Nom du Fichier';
 $_['entry_mask']               = 'Masque';
 
-// Aide
+// Help
 $_['help_filename']            = 'Vous pouvez télécharger via le bouton de téléchargement ou utiliser FTP pour télécharger dans le répertoire des téléchargements et entrer les détails ci-dessous.';
 $_['help_mask']                = 'Il est recommandé que le nom du fichier et le masque soient différents pour empêcher les utilisateurs d\'essayer de lier directement vos téléchargements.';
 
-// Erreur
+// Error
 $_['error_warning']            = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
 $_['error_permission']         = 'Attention: Vous n\'avez pas la permission de modifier les téléchargements!';
 $_['error_name']               = 'Le nom du téléchargement doit contenir entre 3 et 64 caractères!';

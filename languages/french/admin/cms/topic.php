@@ -1,8 +1,8 @@
 <?php
-// En-tête
+// Heading
 $_['heading_title']           = 'Sujets';
 
-// Texte
+// Text
 $_['text_success']            = 'Succès: Vous avez modifié les sujets!';
 $_['text_list']               = 'Liste des Sujets';
 $_['text_add']                = 'Ajouter un Sujet';
@@ -11,13 +11,14 @@ $_['text_default']            = 'Par Défaut';
 $_['text_general']            = 'Général';
 $_['text_meta']               = 'Balises Méta';
 $_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez-les par des - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
+/* LM ADDED */ $_['text_seo']                = 'SEO URL';
 
-// Colonne
+// Column
 $_['column_name']             = 'Nom du Sujet';
 $_['column_sort_order']       = 'Ordre de Tri';
 $_['column_action']           = 'Action';
 
-// Entrée
+// Entry
 $_['entry_image']             = 'Image';
 $_['entry_name']              = 'Nom du Sujet';
 $_['entry_description']       = 'Description';
@@ -30,7 +31,7 @@ $_['entry_status']            = 'Statut';
 $_['entry_keyword']           = 'Mot-clé';
 $_['entry_layout']            = 'Remplacement de la Disposition';
 
-// Erreur
+// Error
 $_['error_warning']           = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
 $_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les sujets!';
 $_['error_name']              = 'Le nom du sujet doit contenir entre 1 et 255 caractères!';
