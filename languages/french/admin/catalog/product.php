@@ -140,7 +140,7 @@ $_['error_keyword_exists']       = 'L\'URL SEO doit être unique!';
 $_['error_keyword_character']    = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
 $_['error_required']             = '%s requis!';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

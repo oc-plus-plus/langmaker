@@ -34,7 +34,7 @@ $_['text_download']              = 'Une fois votre paiement confirmé, vous pouv
 $_['text_comment']               = 'Les commentaires pour votre commande sont:';
 $_['text_footer']                = 'Veuillez répondre à cet e-mail si vous avez des questions.';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

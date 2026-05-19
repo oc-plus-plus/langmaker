@@ -10,7 +10,7 @@ $_['column_quantity']   = 'Quantité';
 $_['column_price']      = 'Prix unitaire';
 $_['column_total']      = 'Total';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

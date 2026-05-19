@@ -23,7 +23,7 @@ $_['entry_code']    = 'Code de Sécurité';
 // Error
 $_['error_code']    = 'Le code de sécurité ne correspond pas!';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

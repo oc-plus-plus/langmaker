@@ -13,7 +13,7 @@ $_['error_stock']            = 'Attention: Les produits marqués avec *** ne son
 $_['error_minimum']          = 'Attention: Le montant minimum de commande pour %s est %s!';
 $_['error_call']             = 'La requête API est introuvable';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

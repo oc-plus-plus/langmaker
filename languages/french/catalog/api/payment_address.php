@@ -13,7 +13,7 @@ $_['error_zone']         = 'Veuillez sélectionner une région / un état!';
 $_['error_custom_field'] = '%s requis!';
 $_['error_regex']        = '%s n\'est pas une entrée valide!';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

@@ -21,7 +21,7 @@ $_['entry_cache']            = 'Cache';
 // Error
 $_['error_permission']       = 'Attention: Vous n\'avez pas la permission de modifier les paramètres développeur!';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */

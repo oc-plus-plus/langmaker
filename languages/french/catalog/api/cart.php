@@ -14,7 +14,7 @@ $_['error_required']     = '%s requis!';
 $_['error_regex']        = '%s n\'est pas une entrée valide!';
 $_['error_subscription'] = 'Le plan d\'abonnement n\'est pas valide!';
 
-/**
+/*
  * LM REMOVED
  * These keys were redundant and were removed.
  */
