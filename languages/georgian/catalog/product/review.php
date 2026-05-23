@@ -14,7 +14,7 @@ $_['entry_rating']     = 'რეიტინგი';
 $_['entry_good']       = 'კარგი';
 $_['entry_bad']        = 'ცუდი';
 
-// Tabs
+// Tab
 $_['tab_review']       = 'მიმოხილვები (%s)';
 
 // Error

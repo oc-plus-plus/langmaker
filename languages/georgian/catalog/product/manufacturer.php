@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']     = 'იპოვნეთ სასურველი ბრენდი';
+$_['heading_title']    = 'იპოვნეთ სასურველი ბრენდი';
 
 // Text
 $_['text_brand']       = 'ბრენდი';

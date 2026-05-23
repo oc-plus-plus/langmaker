@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'რჩეულთა სია';
+$_['heading_title']   = 'რჩეულთა სია';
 
 // Text
 $_['text_account']    = 'ანგარიში';

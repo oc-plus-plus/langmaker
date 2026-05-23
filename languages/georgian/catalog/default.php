@@ -15,6 +15,7 @@ $_['text_yes']              = 'დიახ';
 $_['text_no']               = 'არა';
 $_['text_none']             = ' --- არცერთი --- ';
 $_['text_select']           = ' --- აირჩიეთ --- ';
+$_['text_all']              = 'ყველა';
 $_['text_all_zones']        = 'ყველა ზონა';
 $_['text_pagination']       = 'ნაჩვენებია %d დან %d მდე %d (%d გვერდი)';
 $_['text_loading']          = 'იტვირთება...';
@@ -71,7 +72,6 @@ $_['button_quote']          = 'Get Quotes';
 $_['button_list']           = 'სია';
 $_['button_grid']           = 'ცხრილი';
 $_['button_map']            = 'რუქის ნახვა';
-$_['button_save_data']      = 'მონაცემების შენახვა';
 
 // Error
 $_['error_exception']       = 'Error Code(%s): %s in %s on line %s';
@@ -89,4 +89,4 @@ $_['error_session']         = 'Warning: Session has expired please submit the fo
 
 // When doing translations only include the matching language code
 // Datepicker
-$_['datepicker']              = 'ka-ge';
+$_['datepicker']            = 'ka-ge';

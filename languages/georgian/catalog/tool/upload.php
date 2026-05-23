@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_upload']    = 'ფაილი ატვირთულია!';
+$_['text_upload']     = 'ფაილი ატვირთულია!';
 
 // Error
 $_['error_token']     = 'Warning: upload token invalid!';

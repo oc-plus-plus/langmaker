@@ -11,6 +11,7 @@ $_['text_semi_month']            = 'half-month';
 $_['text_month']                 = 'month';
 $_['text_year']                  = 'year';
 $_['text_no_results']            = 'თქვენი კალათა ცარიელია!';
+$_['text_model']                 = 'მოდელი';
 $_['text_cart']                  = 'კალათის ნახვა';
 $_['text_checkout']              = 'გადახდა';
 
