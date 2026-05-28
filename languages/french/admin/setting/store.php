@@ -52,6 +52,7 @@ $_['entry_currency']                   = 'Devise';
 $_['entry_product_description_length'] = 'Limite de description en liste';
 $_['entry_pagination']                 = 'Articles par page par défaut';
 $_['entry_product_count']              = 'Nombre de produits par catégorie';
+$_['entry_product_search']             = 'Recherche de produits';
 $_['entry_cookie']                     = 'Politique de cookies';
 $_['entry_gdpr']                       = 'Politique GDPR';
 $_['entry_tax']                        = 'Afficher les prix avec taxes';
@@ -67,7 +68,7 @@ $_['entry_checkout']                   = 'Conditions de paiement';
 $_['entry_stock_display']              = 'Afficher le stock';
 $_['entry_stock_checkout']             = 'Commande en rupture de stock';
 $_['entry_logo']                       = 'Logo de la boutique';
-$_['entry_icon']                       = 'Icône';
+$_['entry_icon']                 	   = 'Icône';
 $_['entry_image_category']             = 'Taille d\'image de catégorie (L x H)';
 $_['entry_image_thumb']                = 'Taille d\'image miniature du produit (L x H)';
 $_['entry_image_popup']                = 'Taille d\'image popup du produit (L x H)';
@@ -106,6 +107,7 @@ $_['help_checkout']                    = 'Oblige les utilisateurs à accepter le
 $_['help_stock_display']               = 'Afficher la quantité de stock sur la page produit.';
 $_['help_stock_checkout']              = 'Permettre aux clients de finaliser leurs achats même si les produits commandés ne sont pas en stock.';
 $_['help_product_count']               = 'Affiche le nombre de produits dans les sous-catégories dans le menu d\'en-tête de la vitrine. Attention, cela peut entraîner une baisse de performance significative pour les boutiques avec beaucoup de sous-catégories!';
+$_['help_product_search']              = 'Choisissez si la recherche multi-mots des produits utilise la logique AND ou OR.';
 
 // Error
 $_['error_warning']                    = 'Attention: Veuillez vérifier soigneusement le formulaire pour détecter les erreurs!';
