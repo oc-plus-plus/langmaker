@@ -68,7 +68,7 @@ foreach ($extraFiles as $fileToMove) {
 	}
 }
 
-// Сравниваем содержимое файлов
+// Comparing the contents of files
 foreach ($masterFiles as $fileToCheck) {
 	if (str_starts_with($fileToCheck, '/.redundant')
 		|| str_starts_with($fileToCheck, '/config.php')
